@@ -13,7 +13,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { XMLParser } from 'fast-xml-parser';
 import kuromoji from 'kuromoji';
-import { GENRES, KEEP_DAYS } from './feeds.mjs';
+import { GENRES, KEEP_DAYS, FILL_TARGET } from './feeds.mjs';
 import { normalizeText, cleanTitle, cleanReading } from './text.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -21,6 +21,9 @@ const DATA_FILE = path.join(ROOT, 'site', 'data', 'news.json');
 const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta';
 // 上から順に試し、使えたモデルで要約します（無料枠の対象は変わることがあるため複数用意）
 const DEFAULT_MODELS = ['gemini-flash-latest', 'gemini-3.5-flash', 'gemini-2.5-flash', 'gemini-flash-lite-latest'];
+// 1回の問い合わせでまとめて要約する記事の数と、問い合わせの間隔（無料枠の回数制限に引っかからないように）
+const BATCH_SIZE = 12;
+const BATCH_INTERVAL_MS = 13000;
 
 const log = (...a) => console.log('[news]', ...a);
 const warn = (msg) => console.log(`::warning::${msg}`);
@@ -157,11 +160,7 @@ function parseGeminiJson(text) {
   return arr;
 }
 
-async function summarizeWithGemini(cands, { apiKey, models, fetchImpl }) {
-  if (!apiKey) {
-    warn('GEMINI_API_KEY が設定されていないため、予備の見出し方式で更新します');
-    return null;
-  }
+async function summarizeBatch(cands, { apiKey, models, fetchImpl }) {
   const body = JSON.stringify({
     contents: [{ role: 'user', parts: [{ text: buildPrompt(cands) }] }],
     generationConfig: { responseMimeType: 'application/json' },
@@ -188,15 +187,35 @@ async function summarizeWithGemini(cands, { apiKey, models, fetchImpl }) {
         const text = (json?.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? '').join('');
         const arr = parseGeminiJson(text);
         log(`Gemini ${model}: ${arr.length}件の要約を受け取りました`);
-        return arr;
+        return { arr, model };
       } catch (e) {
         log(`Gemini ${model}: ${e.name === 'TimeoutError' ? 'タイムアウト' : '応答を読めませんでした'}`);
         break;
       }
     }
   }
-  warn('Geminiが使えなかったため、予備の見出し方式で更新します');
   return null;
+}
+
+// 記事を数件ずつに分けて要約する。途中で使えなくなったら、残りは予備方式に回す
+async function summarizeWithGemini(cands, { apiKey, models, fetchImpl, sleep }) {
+  if (!apiKey) {
+    warn('GEMINI_API_KEY が設定されていないため、予備の見出し方式で更新します');
+    return [];
+  }
+  const out = [];
+  let order = models.slice();
+  for (let i = 0; i < cands.length; i += BATCH_SIZE) {
+    if (i > 0) await sleep(BATCH_INTERVAL_MS);
+    const r = await summarizeBatch(cands.slice(i, i + BATCH_SIZE), { apiKey, models: order, fetchImpl });
+    if (!r) {
+      warn(i === 0 ? 'Geminiが使えなかったため、予備の見出し方式で更新します' : 'Geminiが途中で使えなくなったため、残りは予備の見出し方式で更新します');
+      break;
+    }
+    out.push(...r.arr);
+    order = [r.model, ...models.filter((m) => m !== r.model)]; // 使えたモデルを次も先に試す
+  }
+  return out;
 }
 
 // ---------- メイン ----------
@@ -217,6 +236,7 @@ export async function run({
   models = (process.env.GEMINI_MODELS || '').split(',').map((s) => s.trim()).filter(Boolean),
   now = new Date(),
   write = true,
+  sleep = (ms) => new Promise((r) => setTimeout(r, ms)),
 } = {}) {
   if (!models.length) models = DEFAULT_MODELS;
   const today = jstDate(now);
@@ -246,9 +266,12 @@ export async function run({
     const merged = [];
     const max = Math.max(0, ...lists.map((l) => l.length));
     for (let i = 0; i < max; i++) for (const l of lists) if (l[i]) merged.push(l[i]);
+    // 今回追加する本数：ふだんは perDay 本。記事が少ないときは FILL_TARGET 本まで補充する
+    const have = pool.filter((a) => a.genre === g.id).length;
+    g.need = Math.max(g.perDay, Math.min(FILL_TARGET, FILL_TARGET - have));
     const picked = [];
     for (const it of merged) {
-      if (picked.length >= g.perDay * 3) break;
+      if (picked.length >= Math.ceil(g.need * 1.4) + 2) break;
       const headline = cleanTitle(it.title, it.source);
       const tk = titleKey(headline);
       if (headline.length < 8 || seenUrl.has(it.link) || seenTitle.has(tk)) continue;
@@ -262,6 +285,7 @@ export async function run({
         related: it.related.filter((r) => !r.startsWith(headline)).slice(0, 5),
         source: normalizeText(it.source),
         url: it.link,
+        date: it.pubDate ? jstDate(it.pubDate) : today,
       });
     }
     candidates.push(...picked);
@@ -272,8 +296,8 @@ export async function run({
   // 2. Geminiで要約
   const aiById = new Map();
   if (candidates.length) {
-    const arr = await summarizeWithGemini(candidates, { apiKey, models, fetchImpl });
-    for (const r of arr || []) if (r && r.id) aiById.set(String(r.id), r);
+    const arr = await summarizeWithGemini(candidates, { apiKey, models, fetchImpl, sleep });
+    for (const r of arr) if (r && r.id) aiById.set(String(r.id), r);
   }
 
   // 3. ジャンルごとに決まった数だけ採用（AIの結果が使えない記事は予備方式）
@@ -284,18 +308,28 @@ export async function run({
     const list = candidates.filter((c) => c.genre === g.id);
     let n = 0;
     for (const c of list) {
-      if (n >= g.perDay) break;
+      if (n >= g.need) break;
       let text = '';
       let reading = '';
       let method = '';
       const ai = aiById.get(c.key);
       if (ai) {
         const t = normalizeText(ai.summary).replace(/[「」『』（）()・/]/g, '');
-        const r = cleanReading(ai.reading);
-        if (t.length >= 25 && t.length <= 170 && r.ok && r.reading.length >= t.length * 0.6 && sameNumbers(t, r.reading)) {
-          text = t;
-          reading = r.reading;
-          method = 'ai';
+        if (t.length >= 25 && t.length <= 170) {
+          const r = cleanReading(ai.reading);
+          if (r.ok && r.reading.length >= t.length * 0.6 && sameNumbers(t, r.reading)) {
+            text = t;
+            reading = r.reading;
+            method = 'ai';
+          } else {
+            // AIの読みが使えないときは、要約はそのまま使い、読みだけ解析ツールで付け直す
+            const r2 = await readingByTokenizer(t);
+            if (r2.ok && sameNumbers(t, r2.reading)) {
+              text = t;
+              reading = r2.reading;
+              method = 'ai';
+            }
+          }
         }
       }
       if (!method) {
@@ -308,7 +342,7 @@ export async function run({
       }
       if (!method) continue;
       method === 'ai' ? aiCount++ : fallbackCount++;
-      added.push({ id: c.key, genre: g.id, date: today, text, reading, headline: c.headline, source: c.source, url: c.url, method });
+      added.push({ id: c.key, genre: g.id, date: c.date, text, reading, headline: c.headline, source: c.source, url: c.url, method });
       n++;
     }
   }

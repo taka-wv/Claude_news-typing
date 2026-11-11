@@ -5,13 +5,14 @@
   const PLAY_SECONDS = 60;
   const STORE_KEY = 'newsTyping:v1';
   const HISTORY_MAX = 200;
+  const RECENT_MAX = 300; // 最近打った記事として覚えておく数
 
   // 称号（スコアの区切りはここで調整できます）
   const RANKS = [
-    { min: 450, letter: 'S', title: '特ダネ王', color: 'var(--g-economy)' },
-    { min: 350, letter: 'A', title: '編集長', color: 'var(--g-culture)' },
-    { min: 250, letter: 'B', title: 'デスク', color: 'var(--g-science)' },
-    { min: 150, letter: 'C', title: '記者', color: 'var(--g-world)' },
+    { min: 380, letter: 'S', title: '特ダネ王', color: 'var(--g-economy)' },
+    { min: 290, letter: 'A', title: '編集長', color: 'var(--g-culture)' },
+    { min: 200, letter: 'B', title: 'デスク', color: 'var(--g-science)' },
+    { min: 120, letter: 'C', title: '記者', color: 'var(--g-world)' },
     { min: 0, letter: 'D', title: '見習い記者', color: 'var(--g-tech)' },
   ];
 
@@ -45,7 +46,7 @@
   };
 
   // ---------- 保存（このブラウザの中だけ） ----------
-  const defaultStore = () => ({ settings: { sound: true, volume: 60, genres: null }, history: [], keyMiss: {} });
+  const defaultStore = () => ({ settings: { sound: true, volume: 60, genres: null }, history: [], keyMiss: {}, recent: [] });
   let store = defaultStore();
   function loadStore() {
     try {
@@ -243,13 +244,30 @@
     return a;
   }
 
+  // まだ打っていない記事を先に、最近打った記事ほど後ろに並べる
+  function buildQueue() {
+    const pool = playableArticles();
+    const recent = store.recent || [];
+    const pos = new Map(recent.map((id, i) => [id, i]));
+    const fresh = shuffle(pool.filter((a) => !pos.has(a.id)));
+    const played = pool.filter((a) => pos.has(a.id)).sort((a, b) => pos.get(a.id) - pos.get(b.id));
+    return fresh.concat(played);
+  }
+
+  function markPlayed(a) {
+    if (!a || !a.id) return;
+    store.recent = (store.recent || []).filter((id) => id !== a.id);
+    store.recent.push(a.id);
+    if (store.recent.length > RECENT_MAX) store.recent = store.recent.slice(-RECENT_MAX);
+  }
+
   function startGame() {
     const pool = playableArticles();
     if (!pool.length) return;
     Sound.init();
     Sound.resume();
     Object.assign(game, {
-      state: 'countdown', queue: shuffle(pool.slice()), current: null, typer: null,
+      state: 'countdown', queue: buildQueue(), current: null, typer: null,
       correct: 0, miss: 0, combo: 0, maxCombo: 0, keyMiss: {}, typed: [],
     });
     show('play');
@@ -309,7 +327,7 @@
   }
 
   function nextArticle() {
-    if (!game.queue.length) game.queue = shuffle(playableArticles());
+    if (!game.queue.length) game.queue = buildQueue();
     const a = game.queue.shift();
     game.current = a;
     game.typer = new window.RomajiTyper(a.reading);
@@ -386,6 +404,7 @@
       if (t.finished) {
         Sound.complete();
         game.typed.push({ article: game.current, complete: true });
+        markPlayed(game.current);
         nextArticle();
       } else {
         renderLine('pop');
@@ -415,6 +434,7 @@
     Sound.finish();
     if (game.typer && game.typer.idx > 0 && !game.typer.finished) {
       game.typed.push({ article: game.current, complete: false });
+      markPlayed(game.current);
     }
     const total = game.correct + game.miss;
     const acc = total ? game.correct / total : 0;
