@@ -1,0 +1,7 @@
+# 部品フォルダはGitHubに上げない（自動実行のたびに入れ直すため）
+node_modules/
+
+# APIキーなどを書いたファイルは、絶対にGitHubに上げない
+.env
+.env.*
+*.key
