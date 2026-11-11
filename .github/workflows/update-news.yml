@@ -1,0 +1,82 @@
+# 毎朝ニュースを更新して、サイトを公開し直す自動実行の設定です。
+#
+# 動くタイミング
+#   - 毎朝 7:00ごろ（日本時間）に自動で
+#   - 「Actions」画面の「Run workflow」ボタンを押したとき
+#   - main ブランチのファイルを更新したとき（このときはニュース更新はせず、サイトの公開だけ）
+#
+# 他の人からの変更提案（プルリクエスト）では動かないので、APIキーが外に渡ることはありません。
+
+name: ニュース更新とサイト公開
+
+on:
+  schedule:
+    - cron: '0 22 * * *' # 22:00 UTC = 7:00 日本時間
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: news-and-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: ニュースを更新
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 必要な部品を入れる
+        run: npm ci --no-audit --no-fund
+
+      - name: ニュースを集めて要約する
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/update-news.mjs
+
+      - name: 更新したデータを保存する
+        run: |
+          if git diff --quiet -- site/data/news.json; then
+            echo "変更はありませんでした"
+            exit 0
+          fi
+          # 更新履歴の作成者は、GitHubのボットの名前とGitHub専用アドレスにする
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/news.json
+          git commit -m "ニュースを更新 $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          git push
+
+  deploy:
+    name: サイトを公開
+    needs: update
+    if: ${{ !cancelled() && (needs.update.result == 'success' || needs.update.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v5
