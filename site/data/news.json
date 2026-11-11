@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T00:00:00.000Z",
+ "updatedAt": "2026-11-11T13:01:44.666Z",
  "updatedDate": "2026-11-11",
  "keepDays": 7,
  "genres": [
@@ -26,114 +26,114 @@
  ],
  "articles": [
   {
-   "id": "sample0",
+   "id": "5a0c38157a5c",
    "genre": "world",
    "date": "2026-11-11",
-   "text": "これはサンプルの文章です。最初のニュース更新が終わると、世界のニュースの要約に入れ替わります。",
-   "reading": "これはさんぷるのぶんしょうです。さいしょのにゅーすこうしんがおわると、せかいのにゅーすのようやくにいれかわります。",
-   "headline": "これはサンプルの文章です。最初のニュース更新が終わると、世界のニュースの要約に入れ替わります。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "ヘグセス米国防長官の弾劾決議案が事実上阻止された。トランプ氏は惨めな失敗に終わったと述べた。",
+   "reading": "へぐせすごうえいふちょうかんのだんがいけつぎあんがじじつじょそしされた。とらんぷしはみじめなしっぱいにおわったとのべた。",
+   "headline": "ヘグセス米国防長官の弾劾決議案、事実上阻止...トランプ氏「惨めな失敗に終わった」",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BaC00WkFpbWw1Y1BqM0U3bWxwVlhUQ3FIUjNObGlqQkV1Tm1DTVRDWjBNcDJLNnFuTS1ObVJqLUdVYUo2RG16ZllhR3liRHNhVGthc29LYldiUmZfTE15QUdn?oc=5",
+   "method": "ai"
   },
   {
-   "id": "sample1",
+   "id": "e7469d2dc277",
    "genre": "world",
    "date": "2026-11-11",
-   "text": "結果画面では、打鍵の速さと正確さから、見習い記者から特ダネ王までの称号が決まります。",
-   "reading": "けっかがめんでは、だけんのはやさとせいかくさから、みならいきしゃからとくだねおうまでのしょうごうがきまります。",
-   "headline": "結果画面では、打鍵の速さと正確さから、見習い記者から特ダネ王までの称号が決まります。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "消費減税を巡る4議席の駆け引きで、参院野党が賛成に含みを持たせている。",
+   "reading": "しょうひぜんぜいをめぐる4ぎせきのかけひきで、さんいんやとうがさんせいにふくみをもたせている。",
+   "headline": "「4議席」巡る駆け引き 消費減税、賛成に含みもたせる参院野党",
+   "source": "毎日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NaE5aU1BHRHVOV2JLeE84TWxrV3hPdDB5Zzh6UjRJR2loVUFtRzNFcExEWUhHdTgyWk5qdWxUbS1FSUJQQUI1Slo3djNCMVdwU21sWk5kNTZ0NzlBaTN3WlFNM3liNmE1?oc=5",
+   "method": "ai"
   },
   {
-   "id": "sample2",
+   "id": "d201a52e669c",
    "genre": "economy",
    "date": "2026-11-11",
-   "text": "毎朝7時ごろに、新しいニュースが10本ずつ追加されます。古い記事は一週間たつと消えます。",
-   "reading": "まいあさ7じごろに、あたらしいにゅーすが10ぽんずつついかされます。ふるいきじはいっしゅうかんたつときえます。",
-   "headline": "毎朝7時ごろに、新しいニュースが10本ずつ追加されます。古い記事は一週間たつと消えます。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "日産、経営再建の視界晴れず 4〜9月は2年連続最終赤字",
+   "reading": "にっさん、けいえいさいけんのしかいはれず4から9がつは2ねんれんぞくさいしゅうあかじ",
+   "headline": "日産、経営再建の視界晴れず 4〜9月は2年連続最終赤字",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10NzFONmJBMUlBVWtIQ0VmcjFFRkFlWWJ4WUNIcVlkSEdEOU1hd0VNaWhYRno5WjhRNEhLbFFqRkw5bm5VejVqTHdPQVhQXzRPV2VmT1ZYSzUyMkpvVU9zNVdobmE5QTFwZFpsdQ?oc=5",
+   "method": "headline"
   },
   {
-   "id": "sample3",
+   "id": "c49c03a96fdc",
    "genre": "economy",
    "date": "2026-11-11",
-   "text": "記録はこのブラウザの中にだけ保存されます。別のパソコンには引き継がれません。",
-   "reading": "きろくはこのぶらうざのなかにだけほぞんされます。べつのぱそこんにはひきつがれません。",
-   "headline": "記録はこのブラウザの中にだけ保存されます。別のパソコンには引き継がれません。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "日経平均株価は3日続伸し、急落前の水準を回復した。米コアウィーブの決算を無難に通過したことが好感された。",
+   "reading": "にっけいへいきんかぶかは3にちぞくしんし、きゅうらくまえのすいじゅんをかいふくした。べいこあうぃーぶのけっさんをぶなんにつうかしたことがこうかんされた。",
+   "headline": "日経平均は3日続伸、急落前水準を回復 米コアウィーブ決算を無難通過",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcWxvZHh6QnhORGpPbWZXSjdobmxtSFg4cFJTcmdoYVpvREdCaXlLd05FdFNZMElXQ0E2anBZS3g2b3lNNkdMZEkxNXluT1pCSHRybzFXTUh4aDVvRWs1a19TR3RpTHRSa0pGdGt3MEtpVEpsMk9mSGFFRUpicFRSUXVGNHpyQQ?oc=5",
+   "method": "ai"
   },
   {
-   "id": "sample4",
+   "id": "dc98026e0bad",
    "genre": "tech",
    "date": "2026-11-11",
-   "text": "間違えたキーを押すと、正しいキーを押すまで先に進めません。あせらず丁寧に打ちましょう。",
-   "reading": "まちがえたきーをおすと、ただしいきーをおすまでさきにすすめません。あせらずていねいにうちましょう。",
-   "headline": "間違えたキーを押すと、正しいキーを押すまで先に進めません。あせらず丁寧に打ちましょう。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "小学生の作品にも「AIくさい」 批判を呼び込む犬笛と正義の暴走、疑いが攻撃に変わる社会",
+   "reading": "しょうがくせいのさくひんにもaiくさいひはんをよびこむいぬふえとせいぎのぼうそう、うたがいがこうげきにかわるしゃかい",
+   "headline": "小学生の作品にも「AIくさい」 批判を呼び込む犬笛と正義の暴走、疑いが攻撃に変わる社会",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iVjM5Qndlakg2SllNMmRLdzBQWEsyRWYwZUxpbU92cmh5S1hTUTlELXRJWTVQTFBYczB3WE5zZGV1ZjZhU0hEcktmTW13M3FlYTdvY0RSS3RXWlcyM2ZnN01VT3FVOWZ1aTN1eU9lbzF1LVQxX0V3Vmloa0N0ems?oc=5",
+   "method": "headline"
   },
   {
-   "id": "sample5",
+   "id": "d26597a8d812",
    "genre": "tech",
    "date": "2026-11-11",
-   "text": "苦手なキーは、結果画面のキーボードの図で色が濃く表示されます。",
-   "reading": "にがてなきーは、けっかがめんのきーぼーどのずでいろがこくひょうじされます。",
-   "headline": "苦手なキーは、結果画面のキーボードの図で色が濃く表示されます。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "ドコモまた障害、全国で通話・データ利用しづらく Xでは「5G SAがつながらない」の声",
+   "reading": "どこもまたしょうがい、ぜんこくでつうわでーたりようしづらくxでは5gsaがつながらないのこえ",
+   "headline": "ドコモまた障害、全国で通話・データ利用しづらく Xでは「5G SAがつながらない」の声",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wNGtkTm1UdUVoVUZGRGFsZWdBcGI4VmVET1pYTVNfeTlub3VrdDVCYVlla0RYQXI0WW53TFVzeDZUdG05ZDZYUmdMUy1adUprR3Y0eWgxTUpBV2lOWXk5d0oyWEZGMzZDT1dKektKZUVxS3FLdFlKOXUzWWRUaUE?oc=5",
+   "method": "headline"
   },
   {
-   "id": "sample6",
+   "id": "662b69617c29",
    "genre": "science",
    "date": "2026-11-11",
-   "text": "しはshiでもsiでも打てます。自分の打ちやすい方法で大丈夫です。",
-   "reading": "しはshiでもsiでもうてます。じぶんのうちやすいほうほうでだいじょうぶです。",
-   "headline": "しはshiでもsiでも打てます。自分の打ちやすい方法で大丈夫です。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "地球に「第2の月」が誕生",
+   "reading": "ちきゅうにだい2のつきがたんじょう",
+   "headline": "地球に「第2の月」が誕生",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sejhPR3hFWjh2YmVkc0l3Q3ItVVp1S0V4N0xhSkxJQ1pFcnJ2cUE2XzFwRmRxQ1REOEpiTTd4NFhxdkhVNFBQeVF5OGh1RmJ5T2hocHp3OVBwVUk3S0V0NkZST1YwVi1PLTNiQ3dKdmQ0YTlJOU5sQUR5SFpnUjQ?oc=5",
+   "method": "headline"
   },
   {
-   "id": "sample7",
+   "id": "86de78cfa8f8",
    "genre": "science",
    "date": "2026-11-11",
-   "text": "効果音はスタート画面で消したり、音量を変えたりできます。",
-   "reading": "こうかおんはすたーとがめんでけしたり、おんりょうをかえたりできます。",
-   "headline": "効果音はスタート画面で消したり、音量を変えたりできます。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "グレタさんがCOPを批判した。環境に配慮しているかのように見せかけたサーカスであると主張した。",
+   "reading": "ぐれたさんがこっぷをひはんした。かんきょうにはいりょしているかのようにみせかけたさーかすであるとしゅちょうした。",
+   "headline": "グレタさん、COPを批判「環境に配慮しているかのように見せかけたサーカス」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NendZVV9Xa2lHQTVuZGRjRmVvVzRCbExQc1g0bDlkcThjUUJ1T1U3VmRxeTZNVDJVbUM2Z2llZkhldDQzU2x0TXZKd0t4VFZxWklvaFNfdFZqcENIX2FTeWpLWEZ6QmMxRWpqaVVtWHlBbk5XT2ptSUZUVE1aMkE?oc=5",
+   "method": "ai"
   },
   {
-   "id": "sample8",
+   "id": "5328eb3466dc",
    "genre": "culture",
    "date": "2026-11-11",
-   "text": "連続で正しく打てると、コンボの数が増えて文字の色が変わっていきます。",
-   "reading": "れんぞくでただしくうてると、こんぼのかずがふえてもじのいろがかわっていきます。",
-   "headline": "連続で正しく打てると、コンボの数が増えて文字の色が変わっていきます。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "川口春奈さんに第1子が誕生したことを報告した。夫であるサッカー選手の板倉滉も喜びを語っている。",
+   "reading": "かわぐちはるなさんにだい1しがたんじょうしたことをほうこくした。おっとであるさっかーせんしゅのいたくらこうもよろこびをかたっている。",
+   "headline": "川口春奈さんに第1子誕生「たくさんの方の支え、心から感謝」 夫はサッカー板倉滉選手",
+   "source": "産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FNDRpOWswbzZLRkZtajdodnNiOUVKVWhKWklGSkZmVktkVExxYWhwN01lMHdyQ3BvaG9QLTRoOFk5ZnlEQTNrMVRYOUR1d1JRaHdDYkozUl9yMmliVDZLb0U0aHgzZVFjeDA2cFFWU1hMNmVGR2c?oc=5",
+   "method": "ai"
   },
   {
-   "id": "sample9",
+   "id": "ca05ff8cf576",
    "genre": "culture",
    "date": "2026-11-11",
-   "text": "元の記事は、結果画面のリストから開くことができます。",
-   "reading": "もとのきじは、けっかがめんのりすとからひらくことができます。",
-   "headline": "元の記事は、結果画面のリストから開くことができます。",
-   "source": "サンプル",
-   "url": "",
-   "method": "sample"
+   "text": "映画ビバンの新ビジュアルが公開された。主要人物の間に謎の男の姿があり、新キャラクターの登場ではないかと話題になっている。",
+   "reading": "えいがびばんのしんびじあるがこうかいされた。しゅようじんぶつのあいだになぞのおとのすががあり、しんきゃらくたーのとうじょうではないかとわだいになっている。",
+   "headline": "映画『VIVANT』新ビジュアルに異変 新庄&野崎の間に謎の男の姿「新キャラ登場か」",
+   "source": "シネマトゥデイ",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UUk9GYnRmX3VEUmtJMXBqcXdWcUlHQjFvQkNxQXo3bWtLUl9ybGQ2OEFtOXUxRW13UXlOZHpyWlNyM2ZIWjh5anBDU29jVi0tNkE?oc=5",
+   "method": "ai"
   }
  ]
 }
