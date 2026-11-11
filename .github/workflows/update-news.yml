@@ -11,7 +11,9 @@ name: ニュース更新とサイト公開
 
 on:
   schedule:
-    - cron: '0 22 * * *' # 22:00 UTC = 7:00 日本時間
+    # GitHubは毎時0分が混み合うので、半端な時刻にしている
+    - cron: '23 20 * * *' # 20:23 UTC = 5:23 日本時間
+    - cron: '47 21 * * *' # 21:47 UTC = 6:47 日本時間（予備）
   workflow_dispatch:
   push:
     branches: [main]
@@ -45,6 +47,7 @@ jobs:
       - name: ニュースを集めて要約する
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SKIP_IF_UPDATED_TODAY: ${{ github.event_name == 'schedule' && '1' || '' }}
         run: node scripts/update-news.mjs
 
       - name: 更新したデータを保存する
