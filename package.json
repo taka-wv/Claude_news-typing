@@ -1,0 +1,13 @@
+{
+  "name": "news-typing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "直近1週間のニュースで遊ぶタイピング練習サイト",
+  "scripts": {
+    "update-news": "node scripts/update-news.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.12.0",
+    "kuromoji": "^0.1.2"
+  }
+}
