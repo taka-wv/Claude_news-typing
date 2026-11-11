@@ -391,6 +391,11 @@ export async function run({
   const oldest = daysAgo(today, KEEP_DAYS - 1);
 
   const existing = await loadExisting();
+  // 定時実行は予備も含めて1日2回あるので、その日すでに更新済みなら何もしない（手動の「Run workflow」は対象外）
+  if (process.env.SKIP_IF_UPDATED_TODAY === '1' && existing.updatedDate === today) {
+    log('今日はすでに更新済みなので、何もしません');
+    return existing;
+  }
   // サンプル記事（url が空）は、本物のニュースが入ったら消す
   let pool = (existing.articles || []).filter((a) => a.url && a.date >= oldest);
   const seenUrl = new Set(pool.map((a) => a.url));
