@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url';
 import { XMLParser } from 'fast-xml-parser';
 import kuromoji from 'kuromoji';
 import { GENRES, KEEP_DAYS, FILL_TARGET } from './feeds.mjs';
-import { normalizeText, cleanTitle, cleanReading } from './text.mjs';
+import { normalizeText, cleanTitle, cleanReading, kataToHira } from './text.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_FILE = path.join(ROOT, 'site', 'data', 'news.json');
@@ -120,6 +120,153 @@ export async function readingByTokenizer(text) {
   return cleanReading(raw);
 }
 
+// ---------- AIの読みの確かめ ----------
+// AIの読みには、ときどき書き間違い（例：に対する→になんする）や、関係のない言葉の混入が起きる。
+// そこで、解析ツール（kuromoji）の読みと1文字ずつ突き合わせて、次のように組み立て直す。
+//  - ひらがな・カタカナ・英数字は、文章に書いてあるとおりに読む（AIの書き間違いはここで消える）
+//  - 漢字の単語は、ふだんは解析ツールの読みを使う
+//  - ただし人名・地名などの固有名詞、辞書にない単語、1文字だけの漢字（間・君・雄など）は、
+//    前後でAIの読みが正確なときに限って、AIの読みを使う（解析ツールが苦手なところ）
+function literalOf(ch) {
+  if (/[ぁ-ゖー、。]/.test(ch)) return ch;
+  if (/[ァ-ヴ]/.test(ch)) return kataToHira(ch);
+  if (/[a-z0-9.,-]/i.test(ch)) return ch.toLowerCase();
+  if (ch === '%') return 'ぱーせんと';
+  if (/[~〜～]/.test(ch)) return 'から';
+  return null;
+}
+const isKanji = (ch) => /[\p{Script=Han}々〆ヵヶ]/u.test(ch);
+const isHira = (s) => /^[ぁ-ゖー]+$/.test(s);
+
+// 文章を「そのまま読む部分」と「漢字の単語」に分け、解析ツールの読みを付ける
+async function splitPieces(text) {
+  const t = await getTokenizer();
+  const tokens = t.tokenize(text);
+  const pieces = [];
+  const pushLit = (s) => {
+    if (!s) return;
+    const last = pieces[pieces.length - 1];
+    if (last && last.type === 'lit') last.s += s;
+    else pieces.push({ type: 'lit', s });
+  };
+  tokens.forEach((tk, idx) => {
+    const chars = Array.from(tk.surface_form);
+    // 漢字でも「そのまま読む文字」でもない記号や空白は、読みに入らないので空にする
+    const lits = chars.map((c) => literalOf(c) ?? (isKanji(c) ? null : ''));
+    let a = 0;
+    while (a < chars.length && lits[a] != null) a++;
+    let b = chars.length;
+    while (b > a && lits[b - 1] != null) b--;
+    const head = lits.slice(0, a).join('');
+    const tail = lits.slice(b).join('');
+    pushLit(head);
+    if (b > a) {
+      const mid = chars.slice(a, b);
+      let k = null;
+      const prev = tokens[idx - 1]?.surface_form ?? '';
+      const AFTER_NUMBER = { 月: 'がつ', 日: 'にち' };
+      if (/[0-9]$/.test(prev) && AFTER_NUMBER[tk.surface_form]) k = AFTER_NUMBER[tk.surface_form];
+      else if (tk.reading && tk.reading !== '*') {
+        const r = kataToHira(tk.reading);
+        if (r.startsWith(head) && r.endsWith(tail) && r.length > head.length + tail.length) {
+          k = r.slice(head.length, r.length - tail.length);
+        }
+      }
+      const kanjiCount = mid.filter(isKanji).length;
+      pieces.push({
+        type: 'run',
+        surface: mid.join(''),
+        k: k && isHira(k) ? k : null,
+        len: mid.length,
+        eligible: tk.pos_detail_1 === '固有名詞' || tk.word_type === 'UNKNOWN' || !k ||
+          (chars.length === 1 && kanjiCount === 1),
+      });
+    }
+    pushLit(tail);
+  });
+  return pieces;
+}
+
+// 2つの読みを1文字ずつ対応づける（編集距離）
+function align(A, K) {
+  const n = A.length, m = K.length;
+  const d = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+  for (let i = 0; i <= n; i++) d[i][0] = i;
+  for (let j = 0; j <= m; j++) d[0][j] = j;
+  for (let i = 1; i <= n; i++) for (let j = 1; j <= m; j++) {
+    d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (A[i - 1] === K[j - 1] ? 0 : 1));
+  }
+  // aOf[j] = K[j] に対応するAの文字（挿入分も含む）、err[j] = そこでの食い違いの数
+  const aOf = Array.from({ length: m }, () => '');
+  const err = new Uint16Array(m + 1);
+  let i = n, j = m;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && d[i][j] === d[i - 1][j - 1] + (A[i - 1] === K[j - 1] ? 0 : 1)) {
+      aOf[j - 1] = A[i - 1] + aOf[j - 1];
+      if (A[i - 1] !== K[j - 1]) err[j - 1]++;
+      i--; j--;
+    } else if (j > 0 && d[i][j] === d[i][j - 1] + 1) {
+      err[j - 1]++; j--;
+    } else {
+      const at = Math.min(j, m - 1);
+      if (at >= 0) { aOf[at] = A[i - 1] + aOf[at]; err[at]++; }
+      i--;
+    }
+  }
+  return { aOf, err };
+}
+
+const isSubseq = (short, long) => {
+  let p = 0;
+  for (const c of long) if (c === short[p]) p++;
+  return p === short.length;
+};
+
+export async function checkedReading(text, aiReading) {
+  const pieces = await splitPieces(text);
+  const ai = cleanReading(aiReading);
+  // 解析ツールだけの読み（読めない漢字があれば null）
+  const kuroOnly = pieces.every((p) => p.type === 'lit' || p.k) ? pieces.map((p) => (p.type === 'lit' ? p.s : p.k)).join('') : null;
+  if (!ai.ok) return kuroOnly ? { ...cleanReading(kuroOnly), fixed: 1 } : { reading: '', ok: false, fixed: 0 };
+
+  // 解析ツールが読めない単語は、仮に「？」で長さだけ合わせて突き合わせる
+  const K = [];
+  const span = [];
+  for (const p of pieces) {
+    const s = p.type === 'lit' ? p.s : p.k || '？'.repeat(Math.max(1, p.len * 2));
+    span.push([K.length, K.length + s.length]);
+    K.push(...s);
+  }
+  const { aOf, err } = align(Array.from(ai.reading), K);
+  const segA = (pi) => aOf.slice(span[pi][0], span[pi][1]).join('');
+  const errIn = (pi) => { let e = 0; for (let x = span[pi][0]; x < span[pi][1]; x++) e += err[x]; return e; };
+
+  let out = '';
+  let fixed = 0;
+  for (let pi = 0; pi < pieces.length; pi++) {
+    const p = pieces[pi];
+    if (p.type === 'lit') { out += p.s; if (errIn(pi)) fixed++; continue; }
+    const a = segA(pi);
+    if (p.k && a === p.k) { out += p.k; continue; }
+    // 同じ漢字のかたまりの中で、AIを採用しない単語や前後の目印にずれがないか
+    let clean = true;
+    for (let q = pi - 1; q >= 0; q--) {
+      if (pieces[q].type === 'lit') { if (errIn(q)) clean = false; break; }
+      if (!pieces[q].eligible && errIn(q)) clean = false;
+    }
+    for (let q = pi + 1; q < pieces.length; q++) {
+      if (pieces[q].type === 'lit') { if (errIn(q)) clean = false; break; }
+      if (!pieces[q].eligible && errIn(q)) clean = false;
+    }
+    const aiOk = isHira(a) && a.length <= p.len * 4 + 1 && !(p.k && a.length < p.k.length && isSubseq(a, p.k));
+    if (p.eligible && clean && aiOk) out += a;
+    else if (p.k) { out += p.k; fixed++; }
+    else if (aiOk) out += a;
+    else return { reading: '', ok: false, fixed: 0 };
+  }
+  return { ...cleanReading(out), fixed };
+}
+
 // ---------- 確かめ ----------
 const digitsOf = (s) => (s.match(/[0-9]+/g) || []).join(',');
 function sameNumbers(text, reading) {
@@ -142,6 +289,7 @@ function buildPrompt(cands) {
     '- reading は summary 全体の読みを、ひらがなで書く。漢字とカタカナはすべてひらがなにする。',
     '- reading では、数字は summary と同じ半角数字のまま、英字の語は小文字の英字のまま書く（例：AI→ai、Apple→apple）。%は「ぱーせんと」と書く。',
     '- reading の「、」「。」は summary と同じ位置に入れる。',
+    '- reading は summary の文字を前から順に読んだものだけにする。言い直し、注釈、「じゃなくて」などの言葉は絶対に入れない。',
     '',
     '出力は次の形のJSON配列だけにしてください：[{"id":"...","summary":"...","reading":"..."}]',
     '',
@@ -302,6 +450,7 @@ export async function run({
 
   // 3. ジャンルごとに決まった数だけ採用（AIの結果が使えない記事は予備方式）
   const added = [];
+  let fixedCount = 0;
   let aiCount = 0;
   let fallbackCount = 0;
   for (const g of GENRES) {
@@ -316,19 +465,12 @@ export async function run({
       if (ai) {
         const t = normalizeText(ai.summary).replace(/[「」『』（）()・/]/g, '');
         if (t.length >= 25 && t.length <= 170) {
-          const r = cleanReading(ai.reading);
+          const r = await checkedReading(t, ai.reading);
+          fixedCount += r.fixed;
           if (r.ok && r.reading.length >= t.length * 0.6 && sameNumbers(t, r.reading)) {
             text = t;
             reading = r.reading;
             method = 'ai';
-          } else {
-            // AIの読みが使えないときは、要約はそのまま使い、読みだけ解析ツールで付け直す
-            const r2 = await readingByTokenizer(t);
-            if (r2.ok && sameNumbers(t, r2.reading)) {
-              text = t;
-              reading = r2.reading;
-              method = 'ai';
-            }
           }
         }
       }
@@ -347,6 +489,19 @@ export async function run({
     }
   }
   log(`追加: ${added.length}件（AI要約 ${aiCount}件・見出し方式 ${fallbackCount}件）`);
+  if (fixedCount) log(`AIの読みを解析ツールで直した箇所: ${fixedCount}か所`);
+
+  // すでに保存してある記事の読みも、同じ方法で確かめ直す
+  let refixed = 0;
+  for (const a of pool) {
+    if (a.method !== 'ai') continue;
+    const r = await checkedReading(a.text, a.reading);
+    if (r.ok && r.reading !== a.reading && sameNumbers(a.text, r.reading)) {
+      a.reading = r.reading;
+      refixed++;
+    }
+  }
+  if (refixed) log(`保存済みの記事の読みを直しました: ${refixed}件`);
 
   // 4. 保存
   pool = [...added, ...pool].sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
