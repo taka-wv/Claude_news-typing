@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ニュースタイピング</title>
+  <meta name="description" content="直近1週間のニュースの要約を打つ、60秒のタイピング練習">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%272%27 y=%276%27 width=%2728%27 height=%2720%27 rx=%276%27 fill=%27%2327304a%27/%3E%3Crect x=%277%27 y=%2714%27 width=%2718%27 height=%274%27 rx=%272%27 fill=%27%23ec7488%27/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Dela+Gothic+One&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-head">
+    <a class="wordmark" href="#" data-go="start" aria-label="ニュースタイピング トップへ">ニュース<span class="wordmark-tail">タイピング</span></a>
+    <p class="data-status" id="dataStatus">ニュースを読み込んでいます</p>
+  </header>
+
+  <main>
+    <!-- スタート画面 -->
+    <section class="screen" id="screen-start" aria-labelledby="startTitle">
+      <div class="start-lead">
+        <h1 id="startTitle" class="start-title">今週のニュースを、<br>60秒で打つ。</h1>
+        <p class="start-sub">直近1週間に世界で起きたことの要約が出てきます。打ち間違えたら、正しいキーを押すまで進みません。</p>
+      </div>
+
+      <div class="start-panel">
+        <fieldset class="genres">
+          <legend>出題するジャンル</legend>
+          <div class="genre-list" id="genreList"></div>
+        </fieldset>
+
+        <div class="start-row">
+          <button class="btn btn-primary btn-start" id="startBtn" type="button">
+            スタート<span class="kbd-hint">スペースキーでも始められます</span>
+          </button>
+          <div class="best" id="bestBox" aria-live="polite"></div>
+        </div>
+
+        <div class="sound-row">
+          <label class="switch">
+            <input type="checkbox" id="soundToggle" checked>
+            <span class="switch-track" aria-hidden="true"></span>
+            効果音
+          </label>
+          <label class="volume">
+            音量
+            <input type="range" id="volume" min="0" max="100" value="60">
+          </label>
+          <button class="btn btn-quiet" type="button" data-go="records">記録を見る</button>
+        </div>
+      </div>
+
+      <div class="preview" aria-label="収録しているニュースの例">
+        <h2 class="preview-title">収録中のニュースから</h2>
+        <ul class="preview-list" id="previewList"></ul>
+      </div>
+
+      <p class="touch-note" id="touchNote" hidden>このサイトはパソコンのキーボードで遊ぶ前提で作っています。</p>
+    </section>
+
+    <!-- プレイ画面 -->
+    <section class="screen" id="screen-play" hidden aria-label="タイピング中">
+      <div class="hud">
+        <div class="timer" aria-label="残り時間">
+          <span class="timer-num" id="timeLeft">60</span><span class="timer-unit">秒</span>
+          <div class="timer-bar"><div class="timer-fill" id="timerFill"></div></div>
+        </div>
+        <dl class="hud-stats">
+          <div><dt>打鍵速度</dt><dd><span id="liveKpm">0</span><small>打/分</small></dd></div>
+          <div><dt>ミス</dt><dd id="liveMiss">0</dd></div>
+          <div class="combo" id="comboBox"><dt>コンボ</dt><dd id="liveCombo">0</dd></div>
+        </dl>
+      </div>
+
+      <article class="telop" id="telop">
+        <div class="telop-tab">
+          <span class="telop-genre" id="telopGenre"></span>
+          <span class="telop-source" id="telopSource"></span>
+        </div>
+        <div class="telop-body">
+          <p class="line-text" id="lineText"></p>
+          <p class="line-kana" id="lineKana"></p>
+          <p class="line-romaji" id="lineRomaji" aria-hidden="true"></p>
+        </div>
+      </article>
+
+      <p class="next-up" id="nextUp"></p>
+      <p class="play-foot">Esc キーでやめてスタート画面に戻ります（記録は残りません）</p>
+
+      <div class="countdown" id="countdown" hidden><span id="countNum">3</span></div>
+      <div class="toast" id="imeToast" role="status" hidden>日本語入力がオンになっています。半角英数に切り替えてください。</div>
+    </section>
+
+    <!-- 結果画面 -->
+    <section class="screen" id="screen-result" hidden aria-labelledby="resultTitle">
+      <h1 class="visually-hidden" id="resultTitle">結果</h1>
+      <div class="result-hero">
+        <div class="rank" id="rankBox">
+          <span class="rank-letter" id="rankLetter">B</span>
+        </div>
+        <div class="result-head">
+          <p class="rank-title" id="rankTitle">デスク</p>
+          <p class="score-line">スコア <strong id="scoreNum">0</strong></p>
+          <p class="new-best" id="newBest" hidden>自己ベスト更新</p>
+        </div>
+      </div>
+
+      <dl class="result-stats">
+        <div><dt>打鍵速度</dt><dd><span id="rKpm">0</span><small>打/分</small></dd></div>
+        <div><dt>正確さ</dt><dd><span id="rAcc">0</span><small>%</small></dd></div>
+        <div><dt>ミス</dt><dd><span id="rMiss">0</span><small>回</small></dd></div>
+        <div><dt>最大コンボ</dt><dd><span id="rCombo">0</span></dd></div>
+      </dl>
+
+      <section class="weak" aria-labelledby="weakTitle">
+        <h2 id="weakTitle">今回ミスが多かったキー</h2>
+        <div class="keyboard" id="resultKeyboard"></div>
+        <p class="weak-list" id="weakList"></p>
+      </section>
+
+      <section class="typed" aria-labelledby="typedTitle">
+        <h2 id="typedTitle">今回打った記事</h2>
+        <ol class="typed-list" id="typedList"></ol>
+      </section>
+
+      <div class="result-actions">
+        <button class="btn btn-primary" type="button" id="againBtn">もう一度<span class="kbd-hint">スペースかエンター</span></button>
+        <button class="btn btn-quiet" type="button" data-go="start">スタート画面へ</button>
+        <button class="btn btn-quiet" type="button" data-go="records">記録を見る</button>
+      </div>
+    </section>
+
+    <!-- 記録画面 -->
+    <section class="screen" id="screen-records" hidden aria-labelledby="recordsTitle">
+      <h1 class="records-title" id="recordsTitle">あなたの記録</h1>
+      <p class="records-note">記録は、このパソコンのこのブラウザの中にだけ保存されています。別のパソコンやブラウザには引き継がれません。</p>
+
+      <div class="records-best" id="recordsBest"></div>
+
+      <section aria-labelledby="chartTitle">
+        <h2 id="chartTitle">日ごとの自己ベスト（直近30日）</h2>
+        <div class="chart" id="chart"></div>
+      </section>
+
+      <section aria-labelledby="allWeakTitle">
+        <h2 id="allWeakTitle">これまでにミスが多いキー</h2>
+        <div class="keyboard" id="allKeyboard"></div>
+        <p class="weak-list" id="allWeakList"></p>
+      </section>
+
+      <section aria-labelledby="historyTitle">
+        <h2 id="historyTitle">直近50回の履歴</h2>
+        <div class="table-wrap">
+          <table class="history">
+            <thead><tr><th scope="col">日時</th><th scope="col">スコア</th><th scope="col">称号</th><th scope="col">打鍵速度</th><th scope="col">正確さ</th></tr></thead>
+            <tbody id="historyBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="records-actions">
+        <button class="btn btn-quiet" type="button" data-go="start">スタート画面へ</button>
+        <button class="btn btn-danger" type="button" id="resetBtn">記録をすべて消す</button>
+        <span class="reset-confirm" id="resetConfirm" hidden>
+          本当に消しますか？元に戻せません。
+          <button class="btn btn-danger" type="button" id="resetYes">消す</button>
+          <button class="btn btn-quiet" type="button" id="resetNo">やめる</button>
+        </span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p>ニュースの要約は、各報道機関の見出しをもとにAIが自動で作成したものです。内容の正確さは元の記事でご確認ください。見出しはGoogleニュースの更新情報から取得しています。</p>
+  </footer>
+
+  <script src="romaji.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
