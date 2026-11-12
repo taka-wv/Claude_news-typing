@@ -192,6 +192,8 @@
       $('bestBox').textContent = 'まだ記録がありません。最初の1回をどうぞ。';
     }
 
+    renderLadder($('startLadder'), [{ score: best ? best.score : null, tag: '自己ベスト' }]);
+
     $('soundToggle').checked = store.settings.sound;
     $('volume').value = store.settings.volume;
 
@@ -464,6 +466,11 @@
     $('rMiss').textContent = String(game.miss);
     $('rCombo').textContent = String(game.maxCombo);
 
+    const bestNow = bestRecord();
+    const marks = [{ score, tag: '今回' }];
+    if (bestNow && !(isBest && total > 0)) marks.push({ score: bestNow.score, tag: '自己ベスト' });
+    renderLadder($('resultLadder'), marks);
+
     renderKeyboard($('resultKeyboard'), $('weakList'), game.keyMiss, 'ミスはありませんでした。');
 
     const list = $('typedList');
@@ -511,6 +518,54 @@
       if (i) listEl.append('、');
       listEl.append(el('b', { text: k === ' ' ? 'space' : k }), `${n}回`);
     });
+  }
+
+  // 称号の一覧（下から順に5段）。marks の1つ目を「いまの位置」として強調する
+  function renderLadder(box, marks) {
+    box.textContent = '';
+    const main = marks[0] && marks[0].score != null ? marks[0] : null;
+    const cur = main ? rankOf(main.score) : null;
+    box.append(el('h2', { class: 'ladder-head', text: '称号の一覧' }));
+    const list = el('ol', { class: 'ladder-list' });
+    for (const r of RANKS.slice().reverse()) {
+      const i = RANKS.indexOf(r);
+      const range = i > 0 ? `${r.min}〜${RANKS[i - 1].min - 1}点` : `${r.min}点以上`;
+      const tags = marks.filter((m) => m.score != null && rankOf(m.score) === r);
+      const li = el('li', { class: `rung${r === cur ? ' is-current' : ''}`, style: `--c:${r.color}` }, [
+        el('span', { class: 'rung-letter', text: r.letter }),
+        el('span', { class: 'rung-title', text: r.title }),
+        el('span', { class: 'rung-range', text: range }),
+      ]);
+      if (r === cur) li.setAttribute('aria-current', 'true');
+      if (tags.length) {
+        const t = el('span', { class: 'rung-tags' });
+        for (const m of tags) t.append(el('span', { class: `rung-tag${m === main ? '' : ' is-sub'}`, text: m.tag }));
+        li.prepend(t);
+      }
+      list.append(li);
+    }
+    box.append(list);
+
+    // 次の称号までの距離
+    const note = el('p', { class: 'ladder-note' });
+    if (!cur) {
+      note.textContent = 'スコアに応じて、5段階の称号が決まります。';
+    } else {
+      const next = RANKS[RANKS.indexOf(cur) - 1];
+      if (!next) {
+        note.textContent = `${main.tag}は最高の称号「${cur.title}」です。`;
+      } else {
+        const span = next.min - cur.min;
+        const pct = Math.max(0, Math.min(100, ((main.score - cur.min) / span) * 100));
+        note.append(
+          `${main.tag}から次の「${next.title}」まで、あと `,
+          el('strong', { text: String(next.min - main.score) }),
+          ' 点',
+          el('span', { class: 'ladder-bar', 'aria-hidden': 'true' }, [el('span', { style: `width:${pct}%;--c:${next.color}` })]),
+        );
+      }
+    }
+    box.append(note);
   }
 
   // ---------- 記録画面 ----------
