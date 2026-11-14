@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-13T01:13:40.599Z",
- "updatedDate": "2026-11-13",
+ "updatedAt": "2026-11-14T00:55:44.301Z",
+ "updatedDate": "2026-11-14",
  "keepDays": 7,
  "genres": [
   {
@@ -25,6 +25,325 @@
   }
  ],
  "articles": [
+  {
+   "id": "4d560c31de92",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "トランプ氏は対イランにおいて合意は不要であると投稿した。合意を目指す局面は過ぎ去ったとし、湾岸諸国の要請を受けて攻撃を見送った。",
+   "reading": "とらんぷしはたいいらんにおいてごういはふようであるととうこうした。ごういをめざすきょくめんはすぎさったとし、わんがんしょこくのようせいをうけてこうげきをみおくった。",
+   "headline": "トランプ氏「突然の方針転換」か、対イラン「合意不要」と投稿...合意目指す局面「とっくに過ぎ去った」とも",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IWVFOUFlTMHhVY3l1ZjN2TkpwRVBwaXNjX2hoSzVfSTZKNU1waHVKUExrY2Z6WW9OTkZmQnZBb2hBQi1ia2ZydF9CaFdXWGd6ak8yR2ltWXlBUWd3VTU4dHVB?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "2de8f7d1b638",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "バンス米副大統領が2028年の大統領選挙への出馬取りやめを検討していると報じられた。対イラン戦闘の長期化や共和党の惨敗が背景にあるとされている。",
+   "reading": "ばんすみふくだいとうりょうが2028ねんのだいとうりょうせんきょへのしゅつばとりやめをけんとうしているとほうじられた。たいいらんせんとうのちょうきかやきょうわとうのざんぱいがはいけいにあるとされている。",
+   "headline": "バンス氏が出馬見送りを検討か 2028年大統領選、共和惨敗で",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95Y1g1VFlRWEZ4T3VkYmFTV3RoaTFWbzB0OWcwQ2V6cmRNcWEzNC1LMHkzR0pyUEhOTlVDX2lsbWNiWDl2LXNqM2ZqcjB4Z2ZIY0ZPYmotdkZGa1I1NVZCZ3JWOHhFaGVjblJ2NWp1T3VmYkJaZzBQTGZrbjlYOHc?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "64d84548e5ac",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "衆議院の比例定数を31削減する構想について、まずは政治資金の改革を優先して取り組むべきだという意見が出ている。",
+   "reading": "しゅうぎいんのひれいていすうを31さくげんするこうそうについて、まずはせいじしきんのかいかくをゆうせんしてとりくむべきだといういけんがでている。",
+   "headline": "〈社説〉衆院比例31削減 政治資金改革が先決だ",
+   "source": "東京新聞",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZLWhNb1JuOHR4MjducHpTOU1jenlUVFlnY00yNHI3WGh3eEx0QVRJUklOTjdvOG94cnJzV2RickNVeTU1RjhfNkhnVUI0cW9zenI4?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "8763cb06fa86",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "ロシアの首都で自動車の爆発事故が発生し、ウクライナの親ロシア派政治家で元側近の人物が負傷した。前日にも爆発があり軍人が死亡している。",
+   "reading": "ろしあのしゅとでじどうしゃのばくはつじこがはっせいし、うくらいなのしんろしあはせいじかでもとそっきんのじんぶつがふしょうした。ぜんじつにもばくはつがありぐんじんがしぼうしている。",
+   "headline": "ロシア首都で車爆発、ウクライナ親ロ派政治家の元側近が負傷 前日にも爆発で軍人死亡",
+   "source": "CNN",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tVl9xMkxORVFyVWx6cUV2V2JER1kzdVExRWIzQmRaQzJodmQ0Z1ZrbnVQUXQ4YnoyTGdZcW9nUGoyV2tkWmM1RDJIamJ0SzhLT3lj?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "8ee2b3dd0fef",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "アメリカのミシシッピ川で約130人が乗った遊覧船とタンカーが衝突する事故が起きた。現地では救助作業が続けられており、32人が病院に搬送された。",
+   "reading": "あめりかのみししっぴがわでやく130にんがのったゆうらんせんとたんかーがしょうとつするじこがおきた。げんちではきゅうじょさぎょうがつづけられており、32にんがびょういんにはんそうされた。",
+   "headline": "米ニューオーリンズでタンカーと遊覧船衝突 129人乗り、救出作業続く",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YMHllbVBYVzN2SzVITlBKUXNiaTktRjR5UkFlSFlaVk5yRmtLU0dVNmFkUWJtUU5xZkRTVE5YVnVzdU1oejZPalBuX0pvTG1aMks3d0ZyOVNFV3c5T2lyUk5pcHozUmdKQ18zbw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "1b62b92d73ee",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "マイクロソフト365で大規模な障害が発生し、広範囲で復旧が進んだ。同社は障害について謝罪し報告書を公表する方針で、日本政府も代替手段の確保を指示した。",
+   "reading": "まいくろそふと365でだいきぼなしょうがいがはっせいし、こうはんいでふっきゅうがすすんだ。どうしゃはしょうがいについてしゃざいしほうこくしょをこうひょうするほうしんで、にほんせいふもだいたいしゅだんのかくほをしじした。",
+   "headline": "マイクロソフト365障害、20時間経て広範に復旧 謝罪し報告書公表へ",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtejUzcVJudTFTbzBXQ29tSlhnUVQ4RXV1Q2pGNVdubzRLQWk3b0NRcTBqTkQ2OTRyVWNoM29COUpBb0did3Z0aFU0eUdHcm9yUHloTXEzYTZiSmxURmRNOXU3UnZmcjFpbkUzVQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "0c1d7908e7c9",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "エヌビディアの先端半導体輸出をめぐり、ラトニック商務長官の責任論が浮上した。トランプ氏との関係やCEOに関する話題も報じられている。",
+   "reading": "えぬびでぃあのせんたんはんどうたいゆしゅつをめぐり、らとにっくしょうむちょうかんのせきにんろんがふじょうした。とらんぷしとのかんけいやceoにかんするわだいもほうじられている。",
+   "headline": "エヌビディア先端半導体輸出 ラトニック商務長官の責任論浮上",
+   "source": "NHKニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vSW1CV01RYm14emRjekNwbFJZV1NSajZQN211RmtfSGRlRGVma2lTckpIdDNrQ05nUGhZRFBhSnpFYVpGTUt3QUpyUnhOSVdLdVRiNUt4bndTZlBqTjNZ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "26f5b61f10c5",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "アンソロピックのIPOやエヌビディアのCEOスキャンダルを背景に、AIと半導体のバブル崩壊が指摘されている。投資家の間では期待と警戒が交錯している。",
+   "reading": "あんそろぴっくのipoやえぬびでぃあのceoすきゃんだるをはいけいに、aiとはんどうたいのばぶるほうかいがしてきされている。とうしかのあいだではきたいとけいかいがこうさくしている。",
+   "headline": "「アンソロピックの悪質IPO」+「エヌビディアのジェンスン・ファンCEOスキャンダル」......ついにAI・半導体バブル崩壊は決定的瞬間を迎えそうだ",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WOEVMQkU4WGJXSm1pS0xGVC1wQldXMS13OTh4amxXeEVaNnNaVDJXdTdaS3lIYm85WXAxMUhYWUxsZmVUT1J2RTNaTjRoWmREbm1tanF5RHlIOHJBSVlnOFJ5d2xkbjE4eFVEY21iNkxnbDdLMHozeTl3ZTZuSFk?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "bf9754a1c576",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "市場が追加の利上げを織り込み始めて長期金利が上昇した。米10月PPIではインフレの鎮静化が示されている。",
+   "reading": "しじょうがついかのりあげをおりこみはじめてちょうききんりがじょうしょうした。べい10がつppiではいんふれのちんせいかがしめされている。",
+   "headline": "市場はあと4回の米利上げ織り込み始め長期金利上昇、米10月PPIはインフレ鎮静化",
+   "source": "ザイFX!",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43S2xhbjhQLU80RUVkWnNLREtscXBjd0c3QXFqTzhPRFRDb3JzUS12U3RQOTZ2NkVqT1NfU2haUlU0bVNNa3RZdkZoXzVyN3k0Zmc?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "576ee8dfbcf8",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "アメリカ全土の空港で航空機の地上待機命令が出された。管制センターで通信障害が発生したことが原因である。",
+   "reading": "あめりかぜんどのくうこうでこうくうきのちじょうたいきめいれいがだされた。かんせいせんたーでつうしんしょうがいがはっせいしたことがげんいんである。",
+   "headline": "アメリカ全土の空港で航空機の地上待機命令 管制センターで通信障害が発生",
+   "source": "TBS NEWS DIG",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EaHV3LVlaVU1qWFpUbFJCV1JrWFRnQUh0bGoyaEUtWmFESnFWM3oxcG5tSWlaUXZRTmdOX2lCVDNlaVpNNVpEZ3VEcV9MeDRGQjBmZjhtbw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "806acf555114",
+   "genre": "tech",
+   "date": "2026-11-14",
+   "text": "マイクロソフトが大規模な障害が発生したことについて謝罪した。利用者に向けてお詫びの意を表明している。",
+   "reading": "まいくろそふとがだいきぼなしょうがいがはっせいしたことについてしゃざいした。りようしゃにむけておわびのいをひょうめいしている。",
+   "headline": "マイクロソフト 大規模障害を謝罪",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95Nk50N0pIZzlNVkRrai1Vd2g0TkQ5VzZqRFFYR28wRHdERjZZLTg4TWt1Rm1ZMmZ4Ny1XMGFUR2N2UUdwT3hBbkpzaWJuNThY?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "3bb081e56280",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "紅白歌合戦の出場歌手に関する話題が報じられている。あと7組ほどの追加が出るかどうかが注目されている。",
+   "reading": "こうはくうたがっせんのしゅつじょうかしゅにかんするわだいがほうじられている。あと7くみほどのついかがでるかどうかがちゅうもくされている。",
+   "headline": "『紅白歌合戦』の読み方──あと7組ほどの追加で〝あの人〟は出るか",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU2dyVlZsbHpJeWhhcWZ0NmRJRHBScWpqQWlCY3RCM1o1X3lRTGlXMjA2bWJyc04zeW5lUjA1aDZfU2xOamtQbzZGY3FfallJODdIbV96ZnY4N3lDSFFFaW1xYngxNFFWZXUzaWlfQmpTVVE3WGZNeHBXT1RHeFhKSUdvSkRlek5o?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "78baef4d96a3",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "つるの剛士が男性更年期症状に襲われたことを明かした。1日に1時間から2時間しか眠れず暗いことばかり考えてしまうという。",
+   "reading": "つるのたけしがだんせいこうねんきしょうじょうにおそわれたことをあかした。1にちに1じかんから2じかんしかねむれずくらいことばかりかんがえてしまうという。",
+   "headline": "妻の前で止まらなかった涙》つるの剛士を襲った予想外の男性更年期症状、1日1~2時間しか眠れず「今まで考えなかった暗いことばかり考える」(NEWSポストセブン",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FcEFUd09SYjkyVlZoX1JsaURHU0EtaVBmenNEZDlRZ0JJUk1lcXk3TEUwdE45TjN0MzFtVG1xLTZfSWtkLXBZcjI3QnVrYW9LTjhLWHk4ZU0zU0wtci15aXVWVXlsMlQyUnVCTmdwZ0FPSTMtMi15SV9EV0NEYkU?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "b45a2d5318a7",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "若葉竜也がアンメットの続編への出演を決めた。最初は懐疑的であり自分が出ない場合も想像していたという。",
+   "reading": "わかばたつやがあんめっとのぞくへんへのしゅつえんをきめた。さいしょはかいぎてきでありじぶんがでないばあいもそうぞうしていたという。",
+   "headline": "若葉竜也、『アンメット』続編に「懐疑的でした」...自分が出ない場合も想像 続投決めた思い",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55ajNqVTl0RTRHNGczUWFEYURPcGsyU2NEZUpsb2FHb2ZnV2podUdDay1JUzVUalF2ajRkTVVuSHplRnNaNngtREQyUVMtaTZPcFphNVlzbTRqbDdJdFBKQmdILWxhMnh3YW1XaFk5T3NyNjl2cE9wYlZZOUh3a2c?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "fe65073dbec7",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "櫻井翔が主演する占拠シリーズの第4弾の放送が決定した。新春2時間スペシャルドラマとして放送される。",
+   "reading": "さくらいしょうがしゅえんするせんきょしりーずのだい4だんのほうそうがけっていした。しんしゅん2じかんすぺしゃるどらまとしてほうそうされる。",
+   "headline": "櫻井翔 占拠シリーズ第4弾 『XXXX占拠』放送決定にあたりコメント「毎回大きな喜びを感じながら撮影に臨んでいます」",
+   "source": "日本テレビ",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82NHZaMVdUSlExcXdXdkoyZ3RZYUlvSWVva0tWTkswN01LWXlZTVVHUWwzU1BhSjFaV185eEhqd1ozZGFfbG1qdzZFY29welhWQXJHQ042OGZfNWpEMEdVWENlZ1E5b2VDWlE1Q0dn?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "aa5fc00af589",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "県庁に骨壺が展示された。夜の雰囲気に近い場所を再現して楽しんでもらいたいと知事が語った。",
+   "reading": "けんちょうにこつぼがてんじされた。よるのふんいきにちかいばしょをさいげんしてたのしんでもらいたいとちじがかたった。",
+   "headline": "「骨壺」も県庁に展示...知事「夜のシーンにできる限り近い場所を再現して楽しんでもらいたい」",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SaWl5QnQ2Qlo5dVoyQVE0alRWT2Y5bDdHTmhxOXBZUmdDeExGNHlUVWx3Q01lUkFVRERWLXlJWTlfQkFIM0VCbVB1emxFejYzdGNyUm9tWV80UFhiSlhJdXAyZnpKQQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "6b33f4b0f863",
+   "genre": "world",
+   "date": "2026-11-13",
+   "text": "米中ロの首脳会談が中国の深センで19日に開催され、核軍縮などが議論される方針だ。多国間協調が求められるなか、日本外交にも対応が問われている。",
+   "reading": "べいちゅうろのしゅのうかいだんがちゅうごくのしんせんで19にちにかいさいされ、かくぐんしゅくなどがぎろんされるほうしんだ。たこくかんきょうちょうがもとめられるなか、にほんがいこうにもたいおうがとわれている。",
+   "headline": "高市外交、多国間協調へ試練の秋 米中ロ「大国政治」にのまれるな",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WcV9aM0xDZ1R1a3hDTEtaQWZTeXRnbE9oVm11SzNCRTVYU1FGempDb3lGVG16M21TeXIxLTgtTm1Pb1JvVEhOOXVjUmNHLXhXTXQ1UnRxbDlQOUc5S2o4akNVMV9WSVFHV1lZbQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "4462bccb7bd7",
+   "genre": "economy",
+   "date": "2026-11-13",
+   "text": "東京外国為替市場の円相場が一時1ドル160円台をつけた。これは2か月半ぶりの安値水準となる。",
+   "reading": "とうきょうがいこくかわせしじょうのえんそうばがいちじ1どる160えんだいをつけた。これは2かげつはんぶりのやすねすいじゅんとなる。",
+   "headline": "東京円、一時1ドル=160円台...2か月半ぶりの安値水準",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XUml4SWljVW1RUEM2elR1b3EtZTN2dnZPbnJtRnJCTURiV1FrZ3MxQWtSU1ZkQ2N5UlpIbUdsX09GQ3ROS0xHckhkM3ZaX3Z2WldPSXNhb0FVQnc3czRvcXJrWmI?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "9e76c33c3150",
+   "genre": "tech",
+   "date": "2026-11-13",
+   "text": "エヌビディアのCEOに関する報道を受け、その不倫相手の経歴に注目が集まっている。中国のスパイではないかという憶測も出ている。",
+   "reading": "えぬびでぃあのceoにかんするほうどうをうけ、そのふりんあいてのけいれきにちゅうもくがあつまっている。ちゅうごくのすぱいではないかというおくそくもでている。",
+   "headline": "エヌビディアCEO不倫相手の「謎すぎる」経歴 やはり「中国のスパイ」か?",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wX2dVX0hTYzJpUzVXM0h3em53MWdvSzdodEhycUR4em1obWxWUUNMS0tfR1N2bU56a0VJVER3d1RZREx0bmw0NW53X0F1eXU2eDdaNVJPZmc3QVVBWXBVU1JUYVc1dkQwaDBCR2NUZ05Sc1JtTE9jN2JzcVBsR2c?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "8f7c55757231",
+   "genre": "tech",
+   "date": "2026-11-13",
+   "text": "生成AIの普及によりデータ量が莫大になった。情報流出のリスクが低い磁気テープに再び注目が集まっている。",
+   "reading": "せいせいaiのふきゅうによりでーたりょうがばくだいになった。じょうほうりゅうしゅつのりすくがひくいじきてーぷにふたたびちゅうもくがあつまっている。",
+   "headline": "「磁気テープ」再注目 生成AIの普及でデータ量莫大に 情報流出リスク低く需要高まる(テレビ朝日系(ANN))",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RRWJFMGg1U3hUVWJUWnFvZGdNR3ZQTnZVR0NWUWJFdlZHZi1WMUxfQXZyMFdWaTVwaVlUV2twNkZtTExkYnVJWWE0M0ZqUDk5Si1YbE83dVdSYkgyX2NpZ19yTXlkS0ZWdVVtanE4aGFFTHJnelNUM3VzOXFpQWs?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "2f0c40f068b4",
+   "genre": "tech",
+   "date": "2026-11-13",
+   "text": "マイクロソフトが従業員6万人に退職を促すオファーを出した。残った場合でもリストラされる可能性がある。",
+   "reading": "まいくろそふとがじゅうぎょういん6まんにんにたいしょくをうながすおふぁーをだした。のこったばあいでもりすとらされるかのうせいがある。",
+   "headline": "マイクロソフトが従業員6万人に「お金を払うから辞めて」とオファー。残ってもリストラされるかも",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5COGZiWFpVRjJZTjNfNWV0RUlHTDFMakZjRC1nUFJ4YzNHYllQdElISE5NNEJSUngxT0tqZFdPblRZTUpfMExzQk55elNnWTUybFZMY294Rmk0Vmp4UnZOM2hYRE1YWWEyT1R0VFBqS09fWkhIZUNZRU1vajM5Q2s?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "552caf517bc5",
+   "genre": "tech",
+   "date": "2026-11-13",
+   "text": "ウクライナのドローンがフィンランド湾でロシア軍艦を攻撃した。軍艦に被害が出ている。",
+   "reading": "うくらいなのどろーんがふぃんらんどわんでろしあぐんかんをこうげきした。ぐんかんにひがいがでている。",
+   "headline": "ウクライナのドローン、ロシア軍艦を攻撃 フィンランド湾",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aWFhfZWNNUEVSVU5HdUpNbnZhc1ZjQkRmRXA3QVVrSFpLSFYwRmc2OXB6anRLM08zM3dqek55bzBZM1NlN1U2QjRhSVRNVXBzNENwOENiUnZ2Ti0ybl9OcDVBQ0FldWVHRWhjN09PVTE0amJxa1c0b2JZempwMG8?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "ed9cdf15f77e",
+   "genre": "tech",
+   "date": "2026-11-13",
+   "text": "人気YouTuberきまぐれクックの所属事務所で情報漏えいがあったもよう。詳しい状況を調べている。",
+   "reading": "にんきyoutuberきまぐれくっくのしょぞくじむしょでじょうほうろうえいがあったもよう。くわしいじょうきょうをしらべている。",
+   "headline": "人気YouTuber「きまぐれクック」所属事務所で情報漏えいか",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByd05fcmVpRHREZHNfRnQ3UUJNRzFuejRJc2tJWEJTa3N5cFdQd3hyU0lqbk5CWjFrT2ZpYzgwMTJfUFpSQVFTNmlkSGFpR2NiYUF5SU5vakd1T3lzaHhyMEdlSlhlNjRtR3hMMWVHMkpiTnc5QkZhQUhDWF9Ga2s?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "293c7b107bc9",
+   "genre": "science",
+   "date": "2026-11-13",
+   "text": "日本の高校野球に進んで干されていた選手がソフトバンクの育成10位で指名された。スカウト陣を驚かせるほどの優れた実力を持っている。",
+   "reading": "にほんのこうこうやきゅうにすすんでほされていたせんしゅがそふとばんくのいくせい10いでしめいされた。すかうとじんをおどろかせるほどのすぐれたじつりょくをもっている。",
+   "headline": "「日本の高校野球に進んだら、干されていた」ソフトバンクスカウトを驚愕させた育成10位指名の逆輸入・根鈴風大は何がスゴいのか「想像の100倍いい」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwa2JJMk50Nm5pbHNGaXNFVGxMVmg0d3l5WHdJWnhhUnNRT1Vyajd6bGNpVmdzT3ZyZEo3VHBIVEhZeVBXMGI3b2o0QWNSQlFnanYycnlNUHJIX01Db2Z5OXNKVmZrRWR3elktSVB0N1BnbDdLZkFSclYyd2IxRVU?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "66ab163fd82c",
+   "genre": "science",
+   "date": "2026-11-13",
+   "text": "数学が好きの中学3年の長女が手作りのポーチを制作した。刺しゅうによる驚きのデザインが天才的だと称賛されている。",
+   "reading": "すうがくがすきのちゅうがく3ねんのちょうじょがてづくりのぽーちをせいさくした。ししゅうによるおどろきのでざいんがてんさいてきだとしょうさんされている。",
+   "headline": "数学大好きな中3長女→刺しゅうをした手作りポーチは...... 驚きのデザインに「狂気の沙汰」まさかの仕上がりに「天才?」「美しき狂気」「整っていて美しい」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54R3pnem9OTlBPa3F6WkZ2WEtaRUtlWUcxR3BwX2ZONzUyN1lGWHdfYmFtUmEyZU5PWGliSTk5dDVIOGJ4MjlhSThkNlZBU3dYaHktZVpnQmIweDN6bzVWNWR6SWNtT1dtd1M4ZzltUHRwVFZETE1fTzJHT3daM2s?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "00844a774cea",
+   "genre": "science",
+   "date": "2026-11-13",
+   "text": "総務省が新しい無料オンライン講座を開講する。Pythonを使ったデータ分析が4週間で学べる内容になっている。",
+   "reading": "そうむしょうがあたらしいむりょうおんらいんこうざをかいこうする。pythonをつかったでーたぶんせきが4しゅうかんでまなべるないようになっている。",
+   "headline": "総務省が新しい無料オンライン講座「統計解析プログラミング」を1月に開講 Pythonでのデータ分析が4週間で学べる",
+   "source": "ITmedia",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lbGl3QnQzaTVqdDZlUEZueEkxR1ZNWTI5cXJ6X0RJNTZ5NVh2QU4yYmVWa2RIRlpBWFJrWnJPQVYyUnY4b0Q5QWk2Ty1ERk9zbHBaSzZUSE1LWjFkODE0Y2tycVM0b3BzRWUxZTFDemx4Zw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "e0169cb034df",
+   "genre": "science",
+   "date": "2026-11-13",
+   "text": "マサチューセッツ工科大学がAIを直接直す新手法を実証した。再学習なしで正答率が6倍になった。",
+   "reading": "まさちゅーせっつこうかだいがくがaiをちょくせつなおすあらてほうをじっしょうした。さいがくしゅうなしでせいとうりつが6ばいになった。",
+   "headline": "再学習なしで正答率6倍 マサチューセッツ工科大学が実証した「AIがAIを直接直す」新手法",
+   "source": "ITmedia",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdlJaUElmM3pCVmJEa1Q2T19tSk9TaWtjR1R0WkNNME5vM2tLN1l1OTJnR3pHTHlGdmdBQ3phZTRYLV9JRmFWc3F5TGdhbC1QdlJaMEo0anlZWWhiTzBGUEpvSFNTNkxzYTAzdTc2VHlaZw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "c234830272c8",
+   "genre": "science",
+   "date": "2026-11-13",
+   "text": "わざと不規則な構造にして衝撃吸収性能を高めたメタマテリアルをMITなどが開発した。",
+   "reading": "わざとふきそくなこうぞうにしてしょうげききゅうしゅうせいのうをたかめためたまてりあるをmitなどがかいはつした。",
+   "headline": "わざと不規則な構造にして衝撃吸収性能を高めたメタマテリアルをMITなどが開発",
+   "source": "GIGAZINE",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZFdnMEdtNW1YQld1bnNyenVtQXplWmZuR3N0eXZEQWFTUFY4MFpzQUltUGthWi0zSnhMZ29NNi1Bbjl4OG1ZaEVkYUVmQ255aDRuRjJHTkVIdjlpRVI1eXFFa1lXbC00eDJxYWpUYTgxaWkzSVVxcDl0UXpkMVRDYlhOdw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "4b95fbdb3cdf",
+   "genre": "culture",
+   "date": "2026-11-13",
+   "text": "高田みづえが42年ぶりに出場することが決まった。一山本は年末に家で紅白をみると語った。",
+   "reading": "たかだみづえが42ねんぶりにしゅつじょうすることがきまった。ひとやまほんはねんまつにいえでこうはくをみるとかたった。",
+   "headline": "一山本「年末は家で紅白をみる」 おかみさんだった高田みづえの出場決定に「すごい」",
+   "source": "日刊スポーツ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kcVBFSEdDWGhXYi00VzRoR2NvMHNsbWhLR0dEWWdyby1mV1hYU3hOb1hFM3M4WDdqdXFQRmpqY2ZoelNtQlY4TElhdGFSRmExNmszZ0dGMnhuS05BRkk3MFJ0QkxueHZoTVd1b1F1ZWU1UWQw0gF8QVVfeXFMT0RZcGpPZVZZbG1uWmFZenlHT0tnYy03ZFJTMVB4RUxaUE5CeGRYNy1PR1hvVjZCVVZGU1A4QlV1OUYxMEc4NV9KV1E0NkpNbFY0NU40Z2ZIMFhsYnRvV3lsYWFEaENDdDVJU0l2S2pIUnJrZHBBNEYtdVRvcQ?oc=5",
+   "method": "ai"
+  },
   {
    "id": "b4baff433aac",
    "genre": "world",
@@ -199,6 +518,17 @@
    "headline": "クリスマスなのになぜ肉まん!? 24個入り「肉まんスクイーズ」のアドベントカレンダーを買ってみたらツッコミどころがいろいろあった",
    "source": "ロケットニュース24",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxQi1nUExaMWo0Z19pZk9IdmlscEZENFRNS0VYMWowWkg0U0VJMmx5Vy14MkJCMzV1WU9TZUlnWXAza09yMEJnUTBTTGhHNDV1M0c5cW1kRdIBXEFVX3lxTE9lQ0dzQ25SdVFteTE5VmZPLThOR214VDl4ZGRKY2FjNjhPaGx4NElXaWVwdXQ2QXZDaXZ1VzlBLU1Da2NDZHNmeFlONUljY2hYancxSXlYT05Jd1JF?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "e2b97d11389b",
+   "genre": "science",
+   "date": "2026-11-12",
+   "text": "日本の深海で新種の生物が見つかった。体には見たことのないノコギリがある。",
+   "reading": "にほんのしんかいでしんしゅのせいぶつがみつかった。からだにはみたことのないのこぎりがある。",
+   "headline": "日本の深海で見つかった新種の生物。体には見たことのない「ノコギリ」",
+   "source": "Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBWU9EUVVjZ3k4Rkc3MTJ1OEh1cnZ5Y05EUWY1SkdvOXNraDFKOFlMejBsQ2lUa292eUVvM2tWendmZzhwcFhyQnJyTndBeHg0YVViZE9PZkJpMGJLbDJfQUNSeHA5QWEtWUpfWDR3?oc=5",
    "method": "ai"
   },
   {
