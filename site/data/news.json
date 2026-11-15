@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-14T00:55:44.301Z",
- "updatedDate": "2026-11-14",
+ "updatedAt": "2026-11-14T23:59:20.489Z",
+ "updatedDate": "2026-11-15",
  "keepDays": 7,
  "genres": [
   {
@@ -25,6 +25,314 @@
   }
  ],
  "articles": [
+  {
+   "id": "2b727f6411f8",
+   "genre": "world",
+   "date": "2026-11-15",
+   "text": "佐藤正明による政治まんがの傑作選である一笑両断2が現在販売されている。結局広く薄くかなどの作品が収められている。",
+   "reading": "さとうまさあきによるせいじまんがのけっさくせんであるいっしょうりょうだん2がげんざいはんばいされている。けっきょくひろくうすくかなどのさくひんがおさめられている。",
+   "headline": "〈政治まんが〉「結局広く薄くか」 佐藤正明傑作選「一笑両断2」販売中",
+   "source": "東京新聞",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WUmh0ekNWU01NTjkweDFLMG9ZbHB4Vk9TZndHcnZmNmhYd29uTzBjeDliR0ZkSUNQQlU0UVB4S01WR3Vjb1lfV0luOW40WlpycU9J?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "03dbc87d770d",
+   "genre": "world",
+   "date": "2026-11-15",
+   "text": "昭和を懐かしむ感情や復興を掲げる政治など、ノスタルジアが現代社会をどのように形作っているかを考察している。",
+   "reading": "しょうわをなつかしむかんじょうやふっこうをかかげるせいじなど、のすたるじあがげんだいしゃかいをどのようにかたちづくっているかをこうさつしている。",
+   "headline": "「エモい」昭和から「復興」の政治まで ノスタルジアは今をどう編むか",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oMTcxb2tIWm5xYkpGVlhaNUViVHh2Y0p1Y21yVnJpZG40a0pVcmdpNWFRWGZRN2l0R2RRQ3ZDWUtXa3Awa2YweS1rRnUzZjRTcHNVZnpjaThhbGg0SWlqWVlkd1YxT0FTdWhWZw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "ca26b1e9adeb",
+   "genre": "economy",
+   "date": "2026-11-15",
+   "text": "高市首相は、東南アジアなどと連携して石油備蓄や緊急時の放出で協力するアジア版国際エネルギー機関の創設を提唱する方向で調整している。フィリピンなどとの協力も進める。",
+   "reading": "たかいちしゅしょうは、とうなんあじあなどとれんけいしてせきゆびちくやきんきゅうじのほうしゅつできょうりょくするあじあばんこくさいえねるぎーきかんのそうせつをていしょうするほうこうでちょうせいしている。ふぃりぴんなどとのきょうりょくもすすめる。",
+   "headline": "高市首相 東南アジアなどと「アジア版IEA」創設を提唱で調整",
+   "source": "NHKニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QSkk1Mkk2VzM2Mm5fbG9qWDQxYUtOSzdOQmpVZjNkRkNGeDVoT05qMXZzTlJ3Sm9kR3ozcE9obnZvRXZ6dFdVNE5hYWhKdzk4cWpPSFQwYXlxcU8xcEw0?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "b02075ce08d3",
+   "genre": "tech",
+   "date": "2026-11-15",
+   "text": "AIを悪用したサイバー攻撃の拠点が、世界で1000台発見された。サイトの弱点を探索して不正侵入を行っている疑いがある。",
+   "reading": "aiをあくようしたさいばーこうげきのきょてんが、せかいで1000だいはっけんされた。さいとのじゃくてんをたんさくしてふせいしんにゅうをおこなっているうたがいがある。",
+   "headline": "AI悪用攻撃拠点か 世界で千台発見",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KbDJFN1lQc2ZMaEl0RHZ3Y2tiajB4cnhHcWJKQnIydDBFRnpRRG1nSlU0VE54MkZPdV9aUlRxYnRzYW82eW05S0hDbnNLT1Fi?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "1b75c99158c1",
+   "genre": "culture",
+   "date": "2026-11-15",
+   "text": "インフルエンサーのあっすん容疑者が、無許可で従業員に接待をさせたとして風営法違反の疑いで逮捕された。自身が経営するバーなどの飲食店で行為を行わせていた。",
+   "reading": "いんふるえんさーのあっすんようぎしゃが、むきょかでじゅうぎょういんにせったいをさせたとしてふうえいほういはんのうたがいでたいほされた。じしんがけいえいするばーなどのいんしょくてんでこういをおこなわせていた。",
+   "headline": "インフルエンサー「あっすん」を風営法違反容疑で逮捕、経営する飲食店で従業員に無許可接待させる",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1anduNWw3RWZzaUNJUTdlNGlKTGZVMzN6VnJTV0JNSGZGNjM2aTVoV00zYmJfYkNtTVpoRG8zcmc1S0IzMExYcDlHSnFCNjRzb0psQ1h6cU5qWC1CSlQtYlNDR01nUQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "5bcce2a18f4c",
+   "genre": "culture",
+   "date": "2026-11-15",
+   "text": "小倉優子が弁当作りに便利な3828円の調理アイテムを絶賛した。スタッフもその商品の存在を知らなかったと驚きを見せた。",
+   "reading": "おぐらゆうこがべんとうづくりにべんりな3828えんのちょうりあいてむをぜっさんした。すたっふもそのしょうひんのそんざいをしらなかったとおどろきをみせた。",
+   "headline": "小倉優子、弁当作りに「これめちゃくちゃ便利!」3828円アイテムを絶賛 スタッフも「こんな商品あるの知らなかった」と驚き(1/2) | エンタメ ねとらぼ",
+   "source": "ねとらぼ",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDbnJ6Uk5QVUttekM1Z2pxc2Z3dFpSOW9Td3JuVHhBN1JhbkxkZmF6Z29TVy1IQWt2UEI4dURVclgxb2swel9lTzlseWxoQkN2SXFtSDE4bXVCa3U2RGfSAWNBVV95cUxOd1VNQXRMWDZZWUxLOXR2X2FVWU5mUmxYZHdiT19mUWdlY3RCQ1Qyc3g4OElmWXNzTGlIWWFGWnctREpsYkdxaldScmo0VGN5YjVITUpteDN2UmpFdG9NX0R0bjA?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "a9879d3155a2",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "ゼレンスキー大統領は、アメリカからNATO加盟と引き換えにドンバス地域から撤退する提案を初めて打診されたと明らかにした。",
+   "reading": "ぜれんすきーだいとうりょうは、あめりかからnatoかめいとひきかえにどんばすちいきからてったいするていあんをはじめてだしんされたとあきらかにした。",
+   "headline": "アメリカ側がウクライナに「NATO加盟と引き換えにドンバス撤退」初めて打診 ゼレンスキー大統領明らかに",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPMEV1T0J6VFc0YVhEa2xnMldjTEl4cmMzNjJKTVpiUmUzdHpIa21Bdk1KSnh3b0FUX24yQ1pnZEhUVlI4RkZWbEM1ako1d2lDUDloWTZraG1SWWlubGN4UnpIUG9VN2RMWVZKZ1ZYYzdFSWNFamlQeFZrdzV6dk0?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "00e299f03eae",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "玉木代表は松戸市議選に合わせて松戸市内で街頭演説を行った。皆様の1票で政治は変わると述べ、街頭で訴えた。",
+   "reading": "たまきだいひょうはまつどしぎせんにあわせてまつどしないでがいとうえんぜつをおこなった。みなさまの1ひょうでせいじはかわるとのべ、がいとうでうったえた。",
+   "headline": "「皆様の一票で政治は変わる」玉木代表が松戸市内で街頭演説",
+   "source": "新・国民民主党",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnbEJaRVN0eFBBUVUwN2hOS0VJVXdsOE9fb0FUVld6YWs2X01EWGZMb3BhYk5Tb0FlY2dybE84NnRBVW1RUWRzY1ZtR2lSRzM0NmplX1hDVzlNQWc?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "4133c73d32e3",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "政府は米中露の接近に危機感を強めており、安保秩序を維持するためアメリカに注意を促す方針だ。高市首相とトランプ氏の対話を模索している。",
+   "reading": "せいふはべいちゅうろのせっきんにききかんをつよめており、あんぽちつじょをいじするためあめりかにちゅういをうながすほうしんだ。たかいししゅしょうととらんぷしのたいわをもさくしている。",
+   "headline": "安保秩序維持へ「米に注意促す」政府、米中露接近に危機感 高市首相とトランプ氏対話探る",
+   "source": "産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tRjZsdEdZWU9qQzNaeWdmWmZXOU5VZlJkejJzd3UzaG43YUhyWUtnMmtNdWZtTWR2SnFXdzgzejZ3Vk1rUzlybUhJSDZ2cjltbWIycC1GNUhsSU0wbGhjYU52UmZHbjMwRUFMd0JWRzc2UzEzMXc?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "aa3eeeea9dc4",
+   "genre": "world",
+   "date": "2026-11-14",
+   "text": "15日からASEAN関連首脳会議が開幕し、アメリカのトランプ大統領も出席する。中国を念頭にフィリピンとの防衛協力を強化する議論なども行われる見通しだ。",
+   "reading": "15にちからaseanかんれんしゅのうかいぎがかいまくし、あめりかのとらんぷだいとうりょうもしゅっせきする。ちゅうごくをねんとうにふぃりぴんとのぼうえいきょうりょくをきょうかするぎろんなどもおこなわれるみとおしだ。",
+   "headline": "アメリカのトランプ大統領も出席 15日からASEAN首脳関連会議始まる",
+   "source": "au Webポータル",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rbWV0YmxpdDFDaFh1Tm5odDlMLVkzU0x4Q2xpRjZXTHZudzRKVHNNRmxPQW9rYlVSOTB0MmdtRmhSOVlFOXBZekZ5OUhMX2ZZVDIxLUR2dU1mQVM2ZmlXUC1uUWc3RVlKRkU5bG9n?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "e8bdd6243a19",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "エヌビディア最高経営責任者と親密なトランプ氏を巡り、スパイ疑惑が政権へ波及している。この問題はウォーターゲート事件に匹敵するとの指摘も出ている。",
+   "reading": "えぬびでぃあさいこうけいえいせきにんしゃとしんみつなとらんぷしをめぐり、すぱいぎわくがせいけんへはきゅうしている。このもんだいはうぉーたーげーとじけんにひってきするとのしてきもでている。",
+   "headline": "エヌビディアCEOと「蜜月」のトランプ氏、スパイ疑惑が政権に波及...「ウォーターゲート事件に匹敵か」との指摘も",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByYUdoS3lTb0pta3A1QXk4cDAwNWdQQjY1RnZzSUVFM0dJdUN3QTROVzlxeGJtajhKdlBxUi16TkVVSmJJMlNVbkYzUm1mamw0Zkl3Rmw3bjBJamhWQ2FfZmNn?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "3e5c89a9d525",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "マイクロソフトの接続障害により、メールやAIが使えず混乱が続いたが、全面復旧が発表された。滞留していたメールの処理も完了し、同社は後日詳細を報告するとしている。",
+   "reading": "まいくろそふとのせつぞくしょうがいにより、めーるやaiがつかえずこんらんがつづいたが、ぜんめんふっきゅうがはっぴょうされた。たいりゅうしていためーるのしょりもかんりょうし、どうしゃはごじつしょうさいをほうこくするとしている。",
+   "headline": "ようやく「全面復旧」発表 マイクロソフト大規模障害、滞留メールの処理完了 丸1日続く",
+   "source": "産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sSXJlcGFmTlpFTUFJT2F1MU1qYnM4a1VVeHhOQ0F3NmlQVUNpWmxSZkVLOS1Ka19RaE1Xc1dRMTVCX3I5cVlxMF8tU2hpTFpQSzJRMXo0bzBmekV6V0lNd3FUYjNRSWZiQWlUNGRJaHhBT3kxYVE?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "007541481cf2",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "JR北海道は、新しい豪華観光列車である赤い星の車両を公開した。ラウンジや畳敷きの茶室など豪華な内装を備えており、2027年2月上旬から運行される予定だ。",
+   "reading": "jrほっかいどうは、あたらしいごうかかんこうれっしゃであるあかいほしのしゃりょうをこうかいした。らうんじやたたみしきのちゃしつなどごうかなないそうをそなえており、2027ねん2がつじょうじゅんからうんこうされるよていだ。",
+   "headline": "「二度と造れない車両」 新観光列車「赤い星」公開、ラウンジや畳敷き茶室も JR北海道",
+   "source": "産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iLXRGVVhhY0FRWnBEOWhxRlVwWTBjNV9nSjFvWTNlT1BYRjBPTC02TGVjZHJfeVJzWU43M2xLZXY4SkhTNkpXQlJvcmVtLXlDTjZ0bHplcHJ1NDRjMUI5MFlIUVFlVWJESjdEQjlzVjdaazl3ZUE?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "84bd44894c3f",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "全米の空港で管制システムの老朽化により通信が不安定となり、多数の便が欠航や遅延した。出されていた航空機の地上待機命令は解除され、日本の航空会社も平常運航へ戻る予定だ。",
+   "reading": "ぜんべいのくうこうでかんせいしすてむのろうきゅうかによりつうしんがふあんていとなり、たすうのびんがけっこうやちえんした。だされていたこうくうきのちじょうたいきめいれいはかいじょされ、にほんのこうくうかいしゃもへいじょううんこうへもどるよていだ。",
+   "headline": "全米の空港で約7000便欠航...航空機の地上待機命令は解除 運輸長官「レーダーと通信に不安定な状態発生」管制システム老朽化でルーターに負荷",
+   "source": "テレ朝NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1IWVBzWFhvVGJwZVRtZkFIVXQ2UjJacXQ5eGFzV1JCZk56SjB4QXo4c2xkcGYzSWdIX3QxTEVVLU9xOXkzWDcxbDdLR1F1T3hyLUIyLTFOMW1aZV9KLVZzLU90eVA0ckwwMmVadTZaOGhKSDVTeHRWTUlR?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "c86b2716d1d5",
+   "genre": "economy",
+   "date": "2026-11-14",
+   "text": "アンソロピックのCEOは、IPOに関して期待を上回る成果を出すと発言した。投資家からの需要は6倍に達しており、株式公開に向けた動きに関心が集まっている。",
+   "reading": "あんそろぴっくのceoは、ipoにかんしてきたいをうわまわるせいかをだすとはつげんした。とうしかからのじゅようは6ばいにたっしており、かぶしきこうかいにむけたうごきにかんしんがあつまっている。",
+   "headline": "アンソロピックCEO、IPO「期待上回る成果出す」 投資家需要は6倍",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81WC1Vb0RveUh2U0Y5cmptYTVHRXBnSWdMenRMdDhseGtlbFFaM3VSUXg2Sno0STg1SVBYSTRqaEZTb0RMWVlkVlNYMkFDZWl2UXdteTY1VTJsMlVaREJTQzNYdDBWdzZ3MC1KWg?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "0547fb08f2bc",
+   "genre": "tech",
+   "date": "2026-11-14",
+   "text": "マイクロソフトで発生したシステムの障害について、原因は過去に行われたシステムの増強作業にあることが判明した。",
+   "reading": "まいくろそふとではっせいしたしすてむのしょうがいについて、げんいんはかこにおこなわれたしすてむのぞうきょうさぎょうにあることがはんめいした。",
+   "headline": "MS 障害原因は過去の増強作業",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9peEFSYzV0elBIZzY0VkVSbjJxNVJtNjBnaERuajFWWFowWk9fNjhPdk05a05NNGpvcmthcG9qMjk4QU54OTdhYzJYRTEzVEJu?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "3840b1a7461c",
+   "genre": "tech",
+   "date": "2026-11-14",
+   "text": "グーグルに16年間勤めた55歳の人物が突然解雇された。その後、スーパーのレジ係へ転職した際に3つの試練に直面した。",
+   "reading": "ぐーぐるに16ねんかんつとめた55さいのじんぶつがとつぜんかいこされた。そのご、すーぱーのれじがかりへてんしょくしたさいに3つのしれんにちょくめんした。",
+   "headline": "グーグルに16年間勤務、55歳で突然解雇...スーパーのレジ係に転職した私が直面した「3つの試練」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04ZG9IZUJBTDBkcXlfYl9oWlNfc3dMZ01OQW0zc29ZNl9iN2wxQ1dPT25ZV3FQVUx0ZVMtdWNaWWJnV1BYMlQ1RDZyUGxmbWVZTUdpVVZzd0pUbGQ2eUhaakJlVFAtUzZVeHVvR3ZadDhWenBMREYwaXkyUFJQQzA?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "b20f49f84a20",
+   "genre": "tech",
+   "date": "2026-11-14",
+   "text": "エヌビディアの最高経営責任者の後任を選ぶ作業が難航しているとみられる。",
+   "reading": "えぬびでぃあのさいこうけいえいせきにんしゃのこうにんをえらぶさぎょうがなんこうしているとみられる。",
+   "headline": "エヌビディアCEO 後任選定難航か",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwX2d5MEsyUmRtWnJ2RjRBZkdpMGpQY1lxSXVmVGJJc3Y1ZndneHR5SURyWlVMVk9tV1p4ZC1COTFrWGNVbk5nTVF5ZmhpdEJu?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "09d8e05082c3",
+   "genre": "tech",
+   "date": "2026-11-14",
+   "text": "ドコモで発生した通信障害において、影響を受けた5G SAの回線数は、5G利用者の3から4%にとどまった。",
+   "reading": "どこもではっせいしたつうしんしょうがいにおいて、えいきょうをうけた5gsaのかいせんすうは、5gりようしゃの3から4ぱーせんとにとどまった。",
+   "headline": "ドコモの通信障害で影響を受けた「5G SA」回線数は5Gユーザーの3~4% 思ったよりも少ない? 多い?:Mobile Weekly Top10",
+   "source": "ITmedia",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZRDdVNFFFa0cwamxIWjFrZGpuYWVaR0ZsV2wtOF9DM0hmZ0tCSGlmYnV4NTgxbGF0a0tCVWxEdURLaWpoMzNMZkJyUlJ4RE1XdmcwX3hVSkQ3dHNyYkd2VndaSGFwdEVuS2xydENQY9IBaEFVX3lxTE5vdWdub0l2VUVKbVdla2VNWFM0RDRFMkp6aE9odmNmREhfSzFEREpqamJnTDFBbC1zS3lEaVVBcHVZaFRoc21xVmJud2ZfeVFQVVNzSTJPempxUXZXZXJSMTJLcVlFTl9S?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "fa2b76265514",
+   "genre": "tech",
+   "date": "2026-11-14",
+   "text": "ローミングが縮小しても楽天モバイルから利用者が流出しない理由が存在する。一方で、副回線化やARPU低下といった懸念も浮上している。",
+   "reading": "ろーみんぐがしゅくしょうしてもらくてんもばいるからりようしゃがりゅうしゅつしないりゆうがそんざいする。いっぽうで、ふくかいせんかやarpuていかといったけねんもふじょうしている。",
+   "headline": "ローミング縮小でも楽天モバイルからユーザーが流出しない理由 一方で浮上する「副回線化とARPU低下」の懸念:石野純也のMobile Eye",
+   "source": "ITmedia",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aM0FTM3JqY3JxVkZuX05WNnlDcnRKSEtjQXJnckVVRlF1cGFhQk9qbGpUWkY0d1NoZ2NWMkZ1THJzUlY0VVJ0ZmY5WFo4U1BfM1ZNbmFxeGtnSXpoTmxJZnhiQWlQbWRXaWs2WWR0ONIBaEFVX3lxTFA2TlNCdmZjUWp3czluNjFVaUdtTTlMbmZVZUdqODdXM3paSmNhRlJqcEVodlBud3NLTkdKei1Ca2RzSlVWX2VvYVpjQzU3cVVmTHZuZUxxdkJ0aEdNWVE1eDUtMjZhazdI?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "b094ea55f36f",
+   "genre": "science",
+   "date": "2026-11-14",
+   "text": "これまでの常識が覆されるような、信じがたいが事実に基いた宇宙に関する話題が紹介されている。",
+   "reading": "これまでのじょうしきがくつがえされるような、しんじがたいがじじつにもとづいたうちゅうにかんするわだいがしょうかいされている。",
+   "headline": "信じがたいけどほんと。常識がひっくり返る宇宙の話",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsek1jdVNSWHJFZ3ctTE5LakhweUxQdVQyOTNPcW5SaEtJSHpMbjlqakhXUTdqLTkzYkNZNWpUdVZwa2llRkc4VjV2TmhfRlQzM1I5dFBhRjFJMjRkcngwYUl2eWlBYWNFNkprYXVVRmtFcjdXWnVlRHNKbFJUS1E?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "287301687647",
+   "genre": "science",
+   "date": "2026-11-14",
+   "text": "宇宙から8分ごとに届いていた謎の電波について、5000光年先にある死んだ星が発生源であると特定された。",
+   "reading": "うちゅうから8ふんごとにとどいていたなぞのでんぱについて、5000こうねんさきにあるしんだほしがはっせいげんであるととくていされた。",
+   "headline": "5000光年先で発見された死んだ星",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMkM1SzFENzlfaW1oYWlaR3hFZEJmeW5BUC13V1FoQmVRR0hvcjRwT1pTWFpDb2Q4c3UxTXdWYkNyVUV6YjhScWw4NC1MZTRqbEdHQUNRZUl3bjd5NmRpbVBiSEdSV3Bid0Fkem41T25NSUNUVXJ4RTFkUW5OemdHWEZTT1Q4djNl?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "12e42425cbfa",
+   "genre": "science",
+   "date": "2026-11-14",
+   "text": "20世紀を代表する数理論理学者ゲーデルの速記ノートがClaudeによって解読され、未公開の定理が発見された。",
+   "reading": "20せいきをだいひょうするすうりろんりがくしゃげーでるのそっきのーとがclaudeによってかいどくされ、みこうかいのていりがはっけんされた。",
+   "headline": "20世紀を代表する数理論理学者ゲーデルの速記ノートをClaudeが解読、未公開の定理も",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JOEp4ZVdiQXE1bWx2RlM2dGJzMzlrelNmdk1DVEdTa3RTMHhscWF1eXluZ21EZWw4ajY4RWNNSlk0dTFUczVwUDhfU2Z3OFF1Mkh6MGdsR0JhaGVwZmZQX3RTYkVaQ25XMjFOaHFyU3N5dGR4amVCb25HWlVXbFE?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "895e594da8d1",
+   "genre": "science",
+   "date": "2026-11-14",
+   "text": "120歳を目指す生物学者が、最先端の技術よりも大切な4つの長寿習慣について語った。",
+   "reading": "120さいをめざすせいぶつがくしゃが、さいせんたんのぎじゅつよりもたいせつな4つのちょうじゅしゅうかんについてかたった。",
+   "headline": "120歳を目指す生物学者が語る、最先端テクノロジーより大切な「4つの長寿習慣」(海外)",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81SHRycmJSczN4ODFSbU5lX3FwdXhlODdWMkVVdWJRUnBtX1hKZ3FzZ1JNTVNyV050aldXSFdwcWRYUEwwSy01LXdQMzFRNEZyM1dCTS1TSVNfcEZDaVNWWUNhZEtBRWVHV2RVQkZmOEpNX25XSjc5YlgyelpoZzg?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "ffa7bddd78bd",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "有吉弘行がラジオ番組で、相方と大喧嘩をした女性芸人に説教を行った。不仲であると周囲が気を使うためだと助言した。",
+   "reading": "ありよしひろゆきがらじおばんぐみで、あいかたとだいけんかをしたじょせいげいにんにせっきょうをおこなった。ふなかであるとしゅういがきをつかうためだとじょげんした。",
+   "headline": "有吉弘行、ラジオで相方と大ゲンカの女性芸人に公開説教「仲悪いと、みんなが気使っちゃうからな」",
+   "source": "au Webポータル",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hQlNaaGVvS21oakxVSVhrZEVTRkxPaTZPbGs5WEVDREJQYWZ1Rkd0V3RtVXl3clNTUjZDU1QzVXNCZ01UZ29VdlRKS2hoNENVR01TQ2MwNFZrZWhiSDJOdE5sRFdIZTNHZjEyaVdR?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "e5aea63d158f",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "ドラゴンボールの登場人物である桃白白のモデルとなった役を演じた、韓国の俳優である黄正利さんが81歳で死去した。",
+   "reading": "どらごんぼーるのとうじょうじんぶつであるももしらじらのもでるとなったやくをえんじた、かんこくのはいゆうであるふぁんじょんりさんが81さいでしきょした。",
+   "headline": "演じた役がドラゴンボールの登場人物・桃白白モデルに 韓国俳優の黄正利さん死去、81歳",
+   "source": "産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXX3J0ZjRRaVg5T0F3ekt0OXE5ZzlYZURnaTNTTlNmT204Q3ZkeEVvWERYZXZjalRMc3Q4Mnkwc1BHeU05dXEwMFBkbm4tY0ZkOGhydlVSaWloNF9rc1VyTnhlZFRGMGtnVUNPUzk5WDQyQ2dCWEE?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "4aaa3a3ad874",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "12月23日に発売される雑誌ananの2525号の予約受付が始まった。今号には2026年の時代の顔が再集結する。なお同誌のアワードでSixTONESが大賞を受賞した。",
+   "reading": "12がつ23にちにはつばいされるざっしananの2525ごうのよやくうけつけがはじまった。こんごうには2026ねんのじだいのかおがさいしゅうけつする。なおどうしのあわーどでsixtonesがたいしょうをじゅしょうした。",
+   "headline": "2026年時代の顔がanan誌上に再集結! 12月23日(水)発売の anan(2525号) が予約スタート!",
+   "source": "anan",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zeTZxRTRYTVYwaDVEYVFxLUh5N092R2FLZUdLVktiVkZTdVBpcWF1cHVramZYR0ZCcms1V192MEtydEhxVE1VUmNlNTlDTW55TXNTQW9wUWUyclNxTndj?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "7b7435580df1",
+   "genre": "culture",
+   "date": "2026-11-14",
+   "text": "ナイツの土屋が描いたかるたをする女性の水彩画が優勝作品に選ばれ、躍動感があって美しいといった称賛の声が相次いでいる。",
+   "reading": "ないつのつちやがえがいたかるたをするじょせいのすいさいががゆうしょうさくひんにえらばれ、やくどうかんがあってうつくしいといったしょうさんのこえがあいついでいる。",
+   "headline": "ナイツ土屋が描いた、かるたをする女性の水彩画に称賛続々。優勝作品に「うわぁスンバらしい!」「躍動感があり美しい」",
+   "source": "ハフポスト",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fMUdqSjFPSklVaWc3bm9VSFFrMjloZVd6SjV3VFhiX3lMNnR6ZmlPZlgxeks5NTdJVFYwRWJVcExiV05RWmZGVlNkNEFPMTR6bWN1YnozNlBtajJIeHF1ajhtOEYzVXlZMG1rSWRZbjdxSS01OEg1aw?oc=5",
+   "method": "ai"
+  },
   {
    "id": "4d560c31de92",
    "genre": "world",
@@ -199,6 +507,17 @@
    "headline": "「骨壺」も県庁に展示...知事「夜のシーンにできる限り近い場所を再現して楽しんでもらいたい」",
    "source": "読売新聞",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SaWl5QnQ2Qlo5dVoyQVE0alRWT2Y5bDdHTmhxOXBZUmdDeExGNHlUVWx3Q01lUkFVRERWLXlJWTlfQkFIM0VCbVB1emxFejYzdGNyUm9tWV80UFhiSlhJdXAyZnpKQQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "65830452fb9b",
+   "genre": "science",
+   "date": "2026-11-13",
+   "text": "宇宙の解明を目指すハイパーカミオカンデ向けに、日本製鉄が巨大な水槽の内張り材の納品を完了した。",
+   "reading": "うちゅうのかいめいをめざすはいぱーかみおかんでむけに、にっぽんせいてつがきょだいなすいそうのうちばりざいののうひんをかんりょうした。",
+   "headline": "宇宙の謎に挑むハイパーカミオカンデ、日本製鉄が巨大水槽の内張り材を完納:材料技術",
+   "source": "MONOist",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pNHk4cGFDOC1xbWJpOU9mN3FiTUFEa0duVG5vT2pCeWdydmNnWHdILWZUUlhVMGtGbTlPNlZEUHY0d0VfLTJhQW1UVHRBOGlfa2pRNTBhOE8wYWk1WDhYQVd6VEx5X1JUVEFvZGFJWQ?oc=5",
    "method": "ai"
   },
   {
@@ -518,6 +837,17 @@
    "headline": "クリスマスなのになぜ肉まん!? 24個入り「肉まんスクイーズ」のアドベントカレンダーを買ってみたらツッコミどころがいろいろあった",
    "source": "ロケットニュース24",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxQi1nUExaMWo0Z19pZk9IdmlscEZENFRNS0VYMWowWkg0U0VJMmx5Vy14MkJCMzV1WU9TZUlnWXAza09yMEJnUTBTTGhHNDV1M0c5cW1kRdIBXEFVX3lxTE9lQ0dzQ25SdVFteTE5VmZPLThOR214VDl4ZGRKY2FjNjhPaGx4NElXaWVwdXQ2QXZDaXZ1VzlBLU1Da2NDZHNmeFlONUljY2hYancxSXlYT05Jd1JF?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "69c50fd5bb42",
+   "genre": "science",
+   "date": "2026-11-12",
+   "text": "25年に発表された調査で、プロテインパウダーから鉛やカドミウムが検出された。特に植物性やオーガニック製品では数倍の含有量となった。",
+   "reading": "25ねんにはっぴょうされたちょうさで、ぷろていんぱうだーからなまりやかどみうむがけんしゅつされた。とくにしょくぶつせいやおーがにっくせいひんではすうばいのがんゆうりょうとなった。",
+   "headline": "プロテインパウダーから鉛やカドミウム検出、植物性やオーガニック製品は数倍の含有量 25年発表の調査",
+   "source": "CNN",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lZUhxZDJpRS1pcnlnSkItRU9BMHF2clFGNVg2TVN2a25rZ3h4UlRCbEdGeDc2U3M5VGtpcFAwYjVGVTVxX2t4VDJyNmdCR1Q0emZvVg?oc=5",
    "method": "ai"
   },
   {
@@ -2432,17 +2762,6 @@
    "headline": "火星の火山はまだ生きている? 巨大火山の亀裂の近くに謎のガス",
    "source": "ナショナルジオグラフィック日本版",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52Q0NVRmhYR0FpWEpuZWlCQks5bGRuTl9DdkxCLTFaSnY0RFVJVlFsdU50ZktrMDgxMVdKSV9QLWdDVldSQk42dF96eC1ublJNeVBVYWxIVkhUYzktSjdEdmpmYw?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "2480f0900831",
-   "genre": "science",
-   "date": "2026-11-08",
-   "text": "若い世代のSNSにおいて、冷笑系はダサいとされるなど、新しい価値観が感じられている。",
-   "reading": "わかいせだいのsnsにおいて、れいしょうけいはださいとされるなど、あたらしいかちかんがかんじられている。",
-   "headline": "「冷笑系」はダサい 若い世代のSNSに感じる新しい価値観",
-   "source": "Yahoo!ニュース",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOWNMdjJtVE1OTzZPVlNObThuNDZ5VDF1OEpDWVJJTXE3Wm5sOXpwZDItQzJZNzVWWk8zZEpVektkWUFNVVFpTXhaNFVGeWJhRy00aG11RlMyNW1QbkhiV1dRRFJtQWFnV1VIcnFCZmg3T1ZiZDVYY0w1clcyYmNCbzdibEs1eU82?oc=5",
    "method": "ai"
   }
  ]
