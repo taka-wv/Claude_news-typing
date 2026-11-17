@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-16T00:02:42.602Z",
- "updatedDate": "2026-11-16",
+ "updatedAt": "2026-11-17T02:59:47.284Z",
+ "updatedDate": "2026-11-17",
  "keepDays": 7,
  "genres": [
   {
@@ -25,6 +25,325 @@
   }
  ],
  "articles": [
+  {
+   "id": "e8edb59d5a29",
+   "genre": "world",
+   "date": "2026-11-17",
+   "text": "APECの首脳会議で高市首相とロシアのプーチン大統領による会談が行われる可能性について、ロシアの大統領報道官は否定しない考えを示した。日本側からの打診を受けたもので、実現すれば2019年以来となる。",
+   "reading": "apecのしゅのうかいぎでたかいちしゅしょうとろしあのぷーちんだいとうりょうによるかいだんがおこなわれるかのうせいについて、ろしあのだいとうりょうほうどうかんはひていしないかんがえをしめした。にほんがわからのだしんをうけたもので、じつげんすれば2019ねんいらいとなる。",
+   "headline": "ロシア報道官、プーチン氏と高市氏の首脳会談「否定せず」 APEC会議で",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1VVpaY0V4d29BbWlsWk1qdDh4QVY2VzlLRG0tNlhLWE80Wlc1STFLN2RaelNrbU5jdS10NFNza1dFN0ppWlMycXJ1RFVlV05fZ3FRaUZoV3hTcGNBM1k2ZDI1YjduaEpzdlpSYQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "08afd59e3a3a",
+   "genre": "world",
+   "date": "2026-11-17",
+   "text": "公明党は中道政治の旗を掲げて今後の政治に取り組む姿勢を示している。",
+   "reading": "こうめいとうはちゅうどうせいじのはたをかかげてこんごのせいじにとりくむしせいをしめしている。",
+   "headline": "中道政治の旗を掲げて<下>",
+   "source": "公明党",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOdEtJYjZic0JJQTQtVmU4dnU4UVptTTFETm9PWkxXVDRmMlMwX1pQYWhSbEtVZzM4T3ZMeGFlSFhaY3I2Z3YwcHlrakw4anhremFhVnpxQ0gzMzVPOGFmU2EyTEU2UEVTUVQtczkycmFWemticFNjckdkcVVxRktTcFJTLU5JZjRvc2Iza3Q4WnBaQmZFUFhyLWVjSG9JdzZvajlGckMwOExLOF9BUFo5TlRZcEJCUzNsbGRtNnhwZHFZaHRodUlCeEFsV1FidElRSHhETkdJNE5oNHI3NzJRaWw4VjkyaWlocFB5WWdyRXAyTEhKNzhIcGZYNmlDd1N6S1ZvQnoxUHQ2TXlXb1otbA?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "bcae82ae2321",
+   "genre": "world",
+   "date": "2026-11-17",
+   "text": "アメリカと中国とロシアによる首脳会談で共同声明の発表が検討されている。米露には中国の核軍拡を抑制する狙いがあり、核管理へのAIの活用なども議論される見込みだ。国際情勢に大きな影響を与える可能性がある。",
+   "reading": "あめりかとちゅうごくとろしあによるしゅのうかいだんできょうどうせいめいのはっぴょうがけんとうされている。べいろにはちゅうごくのかくぐんかくをよくせいするねらいがあり、かくかんりへのaiのかつようなどもぎろんされるみこみだ。こくさいじょうせいにおおきなえいきょうをあたえるかのうせいがある。",
+   "headline": "米中露首脳会談、米露の思惑「中国の核軍拡を抑える場として戦略的に作っている」...高橋杉雄氏",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sX25vNGdBQmFCbHJPOVZCVjMtUXpHZTBZeExXR21BRGFxOHo5TDhXbmFJV28zcW82ekFpM0F1MHNNZldDVy1yRF85N2N2Tzd2UEtwb1V6eTA0OTVFdmYwUzNB?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "a6dc435915c0",
+   "genre": "world",
+   "date": "2026-11-17",
+   "text": "東海ブロックの一斉宣伝において、本村氏と須山氏が弱肉強食の政治に反対する訴えを行った。",
+   "reading": "とうかいぶろっくのいっせいせんでんにおいて、もとむらしとすやましがじゃくにくきょうしょくのせいじにはんたいするうったえをおこなった。",
+   "headline": "弱肉強食の政治にノー/東海ブロックいっせい宣伝/本村・須山氏訴え | しんぶん赤旗",
+   "source": "日本共産党",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtWVQxRHJPQ0swTFp5bUpGTVZJTWh1VFR3OW1RckFWRTJQLVJzMTdLODl2V2lCSGJLcDFoUm55QXROSTlxYkZ3S1dmdkRoVVZaeU5WUjMtWDRfbThZX1NMdWFoR3gtdm52bzNLUVplLTNObHh6?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "744e6ef0a354",
+   "genre": "world",
+   "date": "2026-11-17",
+   "text": "ウクライナはロシアに対し、1300機を超える無人機を使用した過去最大規模の攻撃を実施した。石油施設や橋などを標的に攻撃を行ったと発表しており、ロシア側は1336機を撃墜したと説明している。",
+   "reading": "うくらいなはろしあにたいし、1300きをこえるむじんきをしようしたかこさいだいきぼのこうげきをじっしした。せきゆしせつやはしなどをひょうてきにこうげきをおこなったとはっぴょうしており、ろしあがわは1336きをげきついしたとせつめいしている。",
+   "headline": "ロシアに過去最大規模の攻撃 1336機を撃墜 ウクライナは石油施設攻撃を発表",
+   "source": "テレ朝NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aQTBiX3YwMzJCZmRKZGF1cE5kOXBOaGxfcTVZaVljZVdmSXhaZkJpRU5ZOXl0MVE5eFJtdktSNEN4bVdJc1VZQWViYTBRdHQ1emQwNVBKR2FQRDhUVy1WOEx4TTRwSjNhd2UtOUttQ3JGVm0xM2NLWUdB?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "735cab621c66",
+   "genre": "world",
+   "date": "2026-11-17",
+   "text": "モスクワで起きた自動車爆発事件で、親ロシア派のウクライナ人政治家の元側近が負傷した。この事件に関連して、ロシア人の女性が拘束された。",
+   "reading": "もすくわでおきたじどうしゃばくはつじけんで、しんろしあはのうくらいなじんせいじかのもとそっきんがふしょうした。このじけんにかんれんして、ろしあじんのじょせいがこうそくされた。",
+   "headline": "モスクワ車爆弾事件、ロシア人女性を拘束 親ロシア派ウクライナ人政治家の元側近が負傷",
+   "source": "CNN",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BM1BBaFhQUnc1MnZpWmt3a1VOclpwSS1vU3ZCNy1SWUFYbFBlc1hOZHFaNmkxV2U1ZjVjZzBIUWJOT1JhTWpKRXV5ZldHZy1RR2Yw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "c888d5402aaa",
+   "genre": "economy",
+   "date": "2026-11-17",
+   "text": "理化学研究所のスーパーコンピューター富岳が不正アクセスを受け、運用が停止された。研究データや利用者情報が流出した可能性があり、サーバーの一部で改ざんも確認されている。",
+   "reading": "りかがくけんきゅうじょのすーぱーこんぴゅーたーふがくがふせいあくせすをうけ、うんようがていしされた。けんきゅうでーたやりようしゃじょうほうがりゅうしゅつしたかのうせいがあり、さーばーのいちぶでかいざんもかくにんされている。",
+   "headline": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか",
+   "source": "NHKニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rUjliZU9LZWxucXNqcDFYcTJ4M1hnWm05dnRURDJ4cXE5am1FbHJDTzlqX2JsTTd3enB5UzJNaTFiSUhRNkZYblVPUEswQlpmYXk2RkdpdTRoYUF1cmE4?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "4b4015aa5229",
+   "genre": "economy",
+   "date": "2026-11-17",
+   "text": "東京株式市場で日経平均株価は続落で取引を開始した。アメリカの半導体関連株が下落した影響で、一時5万9000円を割り込んだ。",
+   "reading": "とうきょうかぶしきしじょうでにっけいへいきんかぶかはぞくらくでとりひきをかいしした。あめりかのはんどうたいかんれんかぶがげらくしたえいきょうで、いちじ5まん9000えんをわりこんだ。",
+   "headline": "東証寄り付き 日経平均は続落で始まる 米半導体株安で、一時5万9000円割れ",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfUlAtY2RVNGtEcUROS0FZOTdvcEVGOE5nNG55TlcyYnZoRkdINE53TXdWMF9SOTR2dEJRZEZOOENSWDV5N0RvSUxBeUU3bmlHdFhZV2VQQlhHTXJQZ1hBaGpsMl9HNzNSa1dHOQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "6ed1ddf6f52f",
+   "genre": "economy",
+   "date": "2026-11-17",
+   "text": "エヌビディアは辞任した最高経営責任者であるフアン氏の復帰を検討していない。復帰を求める請願には18万人を超える署名が集まっているが、復帰させる考えはない方針だ。",
+   "reading": "えぬびでぃあはじにんしたさいこうけいえいせきにんしゃであるふあんしのふっきをけんとうしていない。ふっきをもとめるせいがんには18まんにんをこえるしょめいがあつまっているが、ふっきさせるかんがえはないほうしんだ。",
+   "headline": "エヌビディア、フアン氏復帰検討せず 請願に18万人超署名",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOUw2Y3V5SkpGQkt1cXNuVlBwc1pjT3Z1SzRGWHBwLUlfRHE5NjZNTFE4NXpZcEtobVZ6NC1wVmdLemdLZXc1UVRBX0VTcXAtb3ZOLWdSVzBBSVowQ3dEYlVEUjVXTmdqYlNUeUVjcTlIaTlXYW1IYWttLXFhYUVfN2xpOHZJTjBSVk1ZeEdWMXg?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "1bbc5df53ab0",
+   "genre": "economy",
+   "date": "2026-11-17",
+   "text": "アメリカの株式市場で主要3指数が揃って下落した。人工知能AI関連の銘柄が売られた影響が市場全体に広がり、ニューヨーク株は739ドル安となるなど大幅な値下がりとなった。",
+   "reading": "あめりかのかぶしきしじょうでしゅよう3しすうがそろってげらくした。じんこうちのうaiかんれんのめいがらがうられたえいきょうがしじょうぜんたいにひろがり、にゅーよーくかぶは739どるやすとなるなどおおはばなねさがりとなった。",
+   "headline": "(朝)米国市場は3指数揃って下落 人工知能(AI)関連銘柄が売られたことが相場全体に波及し下げる展開",
+   "source": "マネクリ",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zYWxKakk2Qk5PZDdqN3pLZmVvTExCTWdId0Y5LTQtWUFrUmxpeVVfT2hjOUlVbHh6WmlHQlotVnJ5clBjT3NsVTFYQXhtNHBUd01jUNIBV0FVX3lxTE1LdGRxSzV1QjRmM2xWenV5dy1uTUc0eE5GcGZDR3dzNEdaemNxSEljYU4wUXhreUNUdlhza2U3Ny1TU0RDNGZXalNIN2JHZjNCX3J0WWMycw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "9920e222e379",
+   "genre": "economy",
+   "date": "2026-11-17",
+   "text": "Microsoft 365で発生した大規模障害は、7月の修正で混入した不具合が原因となった。負荷の増加と容量の減少が重なり世界へ拡大したが、インドは独自の情報通信基盤により影響を回避した。",
+   "reading": "microsoft365ではっせいしただいきぼしょうがいは、7がつのしゅうせいでこんにゅうしたふぐあいがげんいんとなった。ふかのぞうかとようりょうのげんしょうがかさなりせかいへかくだいしたが、いんどはどくじのじょうほうつうしんきばんによりえいきょうをかいひした。",
+   "headline": "「Microsoft 365」大規模障害、7月の修正で混入した不具合が原因 負荷増と容量減が重なり世界に波及",
+   "source": "ITmedia",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rR0t1XzBud05hTWpNOXFqOFNHNWI5UWhMWUk3bWhmRFpfb3ZuTGZFTEo4QmstYnZmZEpmcHBJcjJwQmpaS2pndG1qMjlmUllRMkRqWlJHNnhGcWhxdUZHSEVJWnNmT2JNZFE?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "abf4d385183c",
+   "genre": "tech",
+   "date": "2026-11-17",
+   "text": "Microsoft 365で発生した大規模障害において、メールソフトのOutlookだけ復旧が遅れた理由をマイクロソフトが説明した。",
+   "reading": "microsoft365ではっせいしただいきぼしょうがいにおいて、めーるそふとのoutlookだけふっきゅうがおくれたりゆうをまいくろそふとがせつめいした。",
+   "headline": "Microsoft 365大規模障害、Outlookだけ復旧が遅れた理由とは 同社説明",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zMGZhZjhSLVhSaW1TdTFoRnB2OFNTWWFSbTVhWHpMS1FpVUhDRXVVSkNlWF9UR3hRWkNLeXBPSkZsT2N4Qzg0dFdJRWtYeksxYmFwR0oyZTBuc2NoNDBvekJucmhEZ1U3T0pqWlFPSVpyRGJNeE91eHc3U2lDZnM?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "387412f136ea",
+   "genre": "science",
+   "date": "2026-11-17",
+   "text": "太陽系が従来の説を覆す早さで崩壊する可能性がある。最大で10億年単位で早まるという見方が出ている。",
+   "reading": "たいようけいがじゅうらいのせつをくつがえすはやさでほうかいするかのうせいがある。さいだいで10おくねんたんいではやまるというみかたがでている。",
+   "headline": "太陽系、従来説覆す早さで崩壊 最大で「10億年」単位で早まる可能性",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pbEp6MnpjS01uVXVkWVFVYWdkMUF5MTZlTDJaVnpubmo0T1FiRzJ3LXdCdVB1YVFzTVVobjUtSjBvamdNY3pBZmRocm1sWHBIUExYc3NOTWpIcnEwNk4xbm5yZE5tSFFXbkt1NTl4eUZGbS1ZUzVmZ3l3S0FHZVk?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "b3d867b21faa",
+   "genre": "culture",
+   "date": "2026-11-17",
+   "text": "7代目のジェームズボンド役にロバートパティンソンさんが起用されることが決まった。激しい選考を経て正式決定し本人も最高の栄誉だと喜びを語った。",
+   "reading": "7だいめのじぇーむずぼんどやくにろばーとぱてぃんそんさんがきようされることがきまった。はげしいせんこうをへてせいしきけっていしほんにんもさいこうのえいよだとよろこびをかたった。",
+   "headline": "7代目ジェームズ・ボンドにロバート・パティンソンさん「人生で最高の栄誉」「夢がかなったと言っても」",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xTmhwZUk1d2taTU1DMzNGbW1VelA1TjRyb2hvYXdHNTVNVVZYSDRHTzJzYlVuWDBvd0dJS2NfRnBIRzhiSjhqM1JLMHZkOE9TYkNFdHk0enZ3UjQtX3NMVkdEUmgzb2ZtZDVwSnJ3?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "2f6fff00fe06",
+   "genre": "culture",
+   "date": "2026-11-17",
+   "text": "第69回グラミー賞で新設されたアジア部門の候補が発表され、日本のアーティスト2組が選ばれた。候補入りしたのはLiSAとBABYMETALで、授賞式は2027年に開催される予定だ。",
+   "reading": "だい69かいぐらみーしょうでしんせつされたあじあぶもんのこうほがはっぴょうされ、にほんのあーてぃすと2くみがえらばれた。こうほいりしたのはlisaとbabymetalで、じゅしょうしきは2027ねんにかいさいされるよていだ。",
+   "headline": "グラミー賞 新設のアジア部門で日本勢2組が候補に",
+   "source": "NHKニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1idGFuRFozR2xMOGdiemx4VFRsQWV3cTdpcXMyR2lPSTFqNzBzQk1lRloyTjJwS1Y0Z3JCZ3E4Si0wZXB4cHJvVG5QMVFfYTVjaWFVaHNsU2loYjg4TklR?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "323ae97960a6",
+   "genre": "culture",
+   "date": "2026-11-17",
+   "text": "新ドラマであるハボウの轍に長濱ねるが出演することが決まった。主人公を演じるジェシーのバディとなる新人調査員役に抜擢されており、原作の再現度も絶賛されている。",
+   "reading": "しんどらまであるはぼうのわだちにながはまねるがしゅつえんすることがきまった。しゅじんこうをえんじるじぇしーのばでぃとなるしんじんちょうさいんやくにばってきされており、げんさくのさいげんどもぜっさんされている。",
+   "headline": "長濱ねる、ジェシーの相棒役に起用 『ハボウの轍』で新人調査員役「皆さまの日々の楽しみになればうれしいです」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UTkljQWtNbXYtT1JaZWo5aWhTdnUwbnRFLW5JVE9NNWk5b3JHNGtieHN5TlFTOHdYWncxYjNTOW9IbkZPcUVIVGxuWmt4dmg5M2o5WVFhRDBjRXl3Y2pQS3hsNkRTajMwd0puSndqVEU5OXV3M1dwVGJySVdJVlU?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "f318d368b6e2",
+   "genre": "economy",
+   "date": "2026-11-16",
+   "text": "テスラは自動運転車Cybercabの販売を開始した。車両を購入しても走行には別途月額のサブスクリプション契約が必要となる。ドイツの工場に新棟を建てて生産する計画だ。",
+   "reading": "てすらはじどううんてんしゃcybercabのはんばいをかいしした。しゃりょうをこうにゅうしてもそうこうにはべっとげつがくのさぶすくりぷしょんけいやくがひつようとなる。どいつのこうじょうにしんとうをたててせいさんするけいかくだ。",
+   "headline": "テスラ「Cybercab」、購入しても別途「月5万円のサブスク契約」が必要 払わないと走行不可",
+   "source": "CNET Japan",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GTWJaTUJvQ1lnZzl5ZEJWUzhvVGp1YU5TWnBQSG5OYXlQVzlrQlNndXRUdEliZ29VcDZadm1Eb0hhOThmX19tbE82MW9TaXFUY1E?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "50c3d304c369",
+   "genre": "tech",
+   "date": "2026-11-16",
+   "text": "孫正義氏が進めた人工知能分野への集中投資で誤算が生じている。好調な状況からわずか5か月で情勢が一変し、戦略が裏目に出る事態となっている。",
+   "reading": "そんまさよししがすすめたじんこうちのうぶんやへのしゅうちゅうとうしでごさんがしょうじている。こうちょうなじょうきょうからわずか5かげつでじょうせいがいっぺんし、せんりゃくがうらめにでるじたいとなっている。",
+   "headline": "孫正義AI全賭けの誤算 「絶頂からわずか5ヵ月で何もかもが裏目に」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VY0NPcTRraGJaMXNXUXdJbC1uVUM1YVZQWXJSVmF1NkFFcGthb0h5RnVKak1JOFhKc1BrNmJ6c0dQSVR3MWgyRExxemE1TmtaOHViOUZGU3U3dXRSVXdHOFQzbkxhY2x6TzUtS05ZcjBHS0FIbnA5UEdONjd2QTQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "f3b02c2826e2",
+   "genre": "tech",
+   "date": "2026-11-16",
+   "text": "理研は、富岳において不正アクセスが発生したことを明らかにした。",
+   "reading": "りけんは、ふがくにおいてふせいあくせすがはっせいしたことをあきらかにした。",
+   "headline": "富岳に不正アクセス 理研が明かす",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBkWGhGamlYNzNkcVlzeUZjS1h5dk44TVBNNmNILUNoZEhhRll1YlZCallSTkZpOU5fX1pIVmM2dlVFNktoSnBPSGZXbzdndUdm?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "bb49b9b760ef",
+   "genre": "tech",
+   "date": "2026-11-16",
+   "text": "日経平均株価は反落した。AIに関する株が値下がりを主導する展開となった。エヌビディアの決算を前に、取引の手掛けにくさが影響した。",
+   "reading": "にっけいへいきんかぶかははんらくした。aiにかんするかぶがねさがりをしゅどうするてんかいとなった。えぬびでぃあのけっさんをまえに、とりひきのてがけにくさがえいきょうした。",
+   "headline": "日経平均は反落、AI株が下げ主導 エヌビディア決算前に手掛けにくさ",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1pcFdoZzU1UEgwOG9WUWhjUzZ4WVV3dGVuUEs4R2xsZHZ3Mmlac2FyS29mR0JDODVVU1ZrVTdULVVpM05iNG9sQzFXVmJpd2w2?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "6bedc299830f",
+   "genre": "tech",
+   "date": "2026-11-16",
+   "text": "AIを活用したカンニング行為に対し、韓国政府が危機感を強めている。",
+   "reading": "aiをかつようしたかんにんぐこういにたいし、かんこくせいふがききかんをつよめている。",
+   "headline": "AIカンニングに韓国政府が危機感",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHR3lPNzVXaVB1T2lJbERMOHY5VjV5VWNFN2VFY2ZGM2UxMnVZc09wVGE2Y2JPXy1kUWo3WThPUmM3M2xINndsMkg5cU01aEZN?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "b3e0fc6252c1",
+   "genre": "tech",
+   "date": "2026-11-16",
+   "text": "ドコモの5G SAにおいて今月3度目となる障害が発生した。約6時間で復旧したものの、原因は前回と同様に交換機への通信集中だった。",
+   "reading": "どこもの5gsaにおいてこんげつ3どめとなるしょうがいがはっせいした。やく6じかんでふっきゅうしたものの、げんいんはぜんかいとどうようにこうかんきへのつうしんしゅうちゅうだった。",
+   "headline": "ドコモ「5G SA」今月3度目の障害、約6時間で復旧 原因は同じ「交換機への通信集中」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tb081TndpLVZ5RXVZZlVEajF4YmpVczV2Nm5zcXEtWFI0RGRleE0zbTl1Wng0QUx6a2c1cnN3cEJRNnVlWXhKbDc2czdBeFllY2RKNEpVeE9ENFVKTHAyVlJ1Y2Q0S2QxMkl6Y2pfYkFSNzVRMGt0LUg3aUxYNjQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "e1b625cad920",
+   "genre": "science",
+   "date": "2026-11-16",
+   "text": "日本人の2選手を巡る新情報が入った。アメリカの記者によると、8月と9月にスカウトが派遣されており、再び日本人を獲得する動きが注目される。",
+   "reading": "にっぽんじんの2せんしゅをめぐるしんじょうほうがはいった。あめりかのきしゃによると、8がつと9がつにすかうとがはけんされており、ふたたびにっぽんじんをかくとくするうごきがちゅうもくされる。",
+   "headline": "また日本人獲得か...2選手巡る新情報 米記者報道「8月と9月にはスカウトを派遣」",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KbE5FOVgwc1lqWGNHQ3JuN0FjQWgyaVNQaVlMd3J4NktlUDREWk9IdjRxcUtBaG5IdEpISTVaUDBCV1ZINy1sVWgtWmxEelJCY0lGS2lFNFJFUmFyUDFmcDczN2Y3bWpjbkxUTElMYnRPZFFydnR1T2pndjhaYk0?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "57d7b4c542b8",
+   "genre": "science",
+   "date": "2026-11-16",
+   "text": "スーパーコンピューターの富岳に対して不正アクセスが発生した。機密情報が漏洩した恐れがあるとして、理研が詳しい調査を進めている。",
+   "reading": "すーぱーこんぴゅーたーのふがくにたいしてふせいあくせすがはっせいした。きみつじょうほうがろうせつしたおそれがあるとして、りけんがくわしいちょうさをすすめている。",
+   "headline": "スーパーコンピューター「富岳」に不正アクセス、機密情報漏えいの恐れ...理研が調査",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fbDgycXZ0YzlsUGhHZzZIQ0VvVmZKdU5uQlZ6OFNaVVFrZXdxZGxNekhZRzJ2Rnl0NC1kRUxkc0RhU3ZrZzZxTTZZQTRHMHhQYlRYMDAwblJVLVRyN2lWeUNRQXY?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "eca3119d9f3a",
+   "genre": "science",
+   "date": "2026-11-16",
+   "text": "打ち上げから49年が経過したボイジャー1号が、地球から1光日の距離に到達する。探査機にとって新たな節目となる。",
+   "reading": "うちあげから49ねんがけいかしたぼいじゃー1ごうが、ちきゅうから1こうじつのきょりにとうたつする。たんさきにとってあらたなふしめとなる。",
+   "headline": "ボイジャー1号、地球から「1光日」に到達へ 打ち上げから49年で新たな節目",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41NTY2NGI4OU9md3FVc29ULTlrc2p0WEs4RlcxMkZoZm00dC04T0l6eUhORktWLVlTUlY1WEp4NXRoMXVHTUU5Uk5xVXdGekFXQ2VIVU5tY2N6MG1FY3lYRWpuVjRDcm1sUGdMd1JvZlpCd3o2VmxQcjhRMHFKZGc?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "fe69fba1bd19",
+   "genre": "science",
+   "date": "2026-11-16",
+   "text": "探査機のはやぶさ2は、目的地の小惑星を変更した。エンジントラブルによる推進力の不足で軌道の変更が困難になったためだ。",
+   "reading": "たんさきのはやぶさ2は、もくてきちのしょうわくせいをへんこうした。えんじんとらぶるによるすいしんりょくのふそくできどうのへんこうがこんなんになったためだ。",
+   "headline": "探査機「はやぶさ2」目的地の小惑星を変更...エンジントラブルで推進力不足、軌道変更難しく",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XbTlBTkJoMURkUVhFYm1RUW8tVU5zeEVLYzMyZUQ4YnBobFRSbm5pU19oaUVrOVJCakRvMC0wNTFSYlpGYlhvYnppLTJqbGd3WV90NnM0MUF1M0MwUEFNUXdLcWc?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "6eacc30a15a7",
+   "genre": "culture",
+   "date": "2026-11-16",
+   "text": "俳優の高橋一生さんが舞台の公演中に負傷した。これに伴い出演中の作品において7公演の中止が発表され公式サイトで謝罪が行われた。",
+   "reading": "はいゆうのたかはしいっせいさんがぶたいのこうえんちゅうにふしょうした。これにともないしゅつえんちゅうのさくひんにおいて7こうえんのちゅうしがはっぴょうされこうしきさいとでしゃざいがおこなわれた。",
+   "headline": "高橋一生、出演舞台の公演中に負傷 7公演を中止 二階堂ふみ&河内大和ら出演 公演の公式サイトが謝罪",
+   "source": "産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdHdORGV4MjZicHNqa29jVTd2dEZVYU1HY3dvVGNfckNJQ1lnMGlqbzZzMTJ5LVJhZ2NYbWtSanUzeG94S0Q0cWRHZ1lzQTAzVEE4enR0VUYwdmd3VFMtb3JVOG5oMldpcW95SzgyMkdrdnB2Zk5Pbk9LbTJRTDZMLUQ0N0RjcXJVV01mUm9ibGY2YjgtUkhZS2RfSQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "87ac8902e3c9",
+   "genre": "culture",
+   "date": "2026-11-16",
+   "text": "性的暴行の罪に問われた元ジャングルポケットの斉藤慎二被告に対し懲役4年の実刑判決が言い渡された。被告側はこの判決を不服として即日控訴した。",
+   "reading": "せいてきぼうこうのつみにとわれたもとじゃんぐるぽけっとのさいとうしんじひこくにたいしちょうえき4ねんのじっけいはんけつがいいわたされた。ひこくがわはこのはんけつをふふくとしてそくじつこうそした。",
+   "headline": "元ジャンポケ・斉藤被告 懲役4年の実刑判決「即日控訴」",
+   "source": "テレ朝NEWS",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yUWZYVVBLMGpuU211UjZsX3hZSHNyY3Nibm9oeFBxTTJXSlhQSVlER1hZd1dRcV8xNVhPT2l5Nzdja2Z0ZGc3WmNTcjVDR0dHMFVnVlpOMktjWE5WWkQzZkpmNGFVUVl3dGpJNDFkLWEtdw?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "9957580ee435",
+   "genre": "culture",
+   "date": "2026-11-16",
+   "text": "俳優の中田乃愛さんが23歳で亡くなった。現在放送されているウルトラマンテオや映画のマイダディなど複数の作品で活躍していた。",
+   "reading": "はいゆうのなかたのあいさんが23さいでなくなった。げんざいほうそうされているうるとらまんておやえいがのまいだでぃなどふくすうのさくひんでかつやくしていた。",
+   "headline": "俳優・中田乃愛さん逝去(享年23)。『マイ・ダディ』や、現在放送中の『ウルトラマンテオ』などの作品で活躍",
+   "source": "電撃オンライン",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MZ0Q3ZXZtQ25SLWZMMTBQN2xrcmRkS3BZTHY1Zk5mWVNjMThxV3VGbXNzN2tGM0tlZFB3bWNWLVJ6LVJsclQtSmR5RjZ6VHhkWERnNVFrYUM5UQ?oc=5",
+   "method": "ai"
+  },
   {
    "id": "1c3dd499d923",
    "genre": "world",
@@ -166,6 +485,17 @@
    "headline": "「スピッツ」ドラマー崎山さん事故で入院 来年の全国ツアー「慎重に判断」所属事務所",
    "source": "テレ朝NEWS",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94OWNTVzZ4cmkwbzZjOWhuOFlURTVJVnFYMnMxMGNCSWQtS1FXdHZhMXVNWlM5NmdrZHVER09GUkhBMVhmdVB5WVFMMllTNW1VbnZIY2JUT3BTOGFNQnR5RExiaE14U3FEUF81bmpfenFuQQ?oc=5",
+   "method": "ai"
+  },
+  {
+   "id": "79e807a83f80",
+   "genre": "science",
+   "date": "2026-11-15",
+   "text": "人工知能学会において、おじさん構文に関する研究成果が発表された。若者へ絵文字を用いることの是非や、AIとの関わりが議論されている。",
+   "reading": "じんこうちのうがっかいにおいて、おじさんこうぶんにかんするけんきゅうせいかがはっぴょうされた。わかものへえもじをもちいることのぜひや、aiとのかかわりがぎろんされている。",
+   "headline": "「人工知能学会」で「おじさん構文」の研究発表、問われる「若者に絵文字を使っていいのか」問題...AIとの関係は",
+   "source": "読売新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsS3dmNl9DYVJYNVRfX3JEeXZHeFRTazI1MzVGRzFGNy00ekFmUGRFWkFpT2lfNHhDNlhMN3l1ZWl2MkZNT2xldGYxUjFiZGhKTWNJSVhKa0gtT1FXTDdKUnJnQmM?oc=5",
    "method": "ai"
   },
   {
@@ -2861,193 +3191,6 @@
    "headline": "映画『VIVANT』新ビジュアルに異変 新庄&野崎の間に謎の男の姿「新キャラ登場か」",
    "source": "シネマトゥデイ",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UUk9GYnRmX3VEUmtJMXBqcXdWcUlHQjFvQkNxQXo3bWtLUl9ybGQ2OEFtOXUxRW13UXlOZHpyWlNyM2ZIWjh5anBDU29jVi0tNkE?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "a7199d442b24",
-   "genre": "world",
-   "date": "2026-11-10",
-   "text": "米上院選のアラスカ州で2人のサリバン氏を巡って混乱が起きており、結果の判明に数週間かかる見通しだ。ミシシッピ州でも同様の事態となっている。",
-   "reading": "べいじょういんせんのあらすかしゅうで2にんのさりばんしをめぐってこんらんがおきており、けっかのはんめいにすうしゅうかんかかるみとおしだ。みししっぴしゅうでもどうようのじたいとなっている。",
-   "headline": "米上院アラスカ「2人のサリバン」で混乱 結果に数週間か、ミシシッピも",
-   "source": "日本経済新聞",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SWS1rZGRPbGVOMHlrR2tXZG8wbFJMVExaUXg2YngtbTJ4ZnRhYmdHRHdCRVVWUDFBSFpWTXFqNW9ra2JlUkxpMXRPX0NZQlVCX2E5WnQ3clpfWmJvZHNwRTJkYzdKRGtfQ1U0ag?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "8df18c9a7939",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "ドラフト会議を終えたスカウトが反省会を行い、狙っていた選手を3位で他球団に指名されたことへの心残りを示した。",
-   "reading": "どらふとかいぎをおえたすかうとがはんせいかいをおこない、ねらっていたせんしゅを3いでたきゅうだんにしめいされたことへのこころのこりをしめした。",
-   "headline": "「個人的には渡部海より好き」だったのに...3位で他球団に? ベテラン記者が聞いたドラフト会議敏腕スカウト反省会「もったいないことしたわ」",
-   "source": "Number Web",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFZWdMQUJYMmFWLXlMR0V5SjQ0eFM0OURaVmYzSHg2a1BmSE1RY1pmOXNhQ01QR2VZNkFIYkRqWnlYcmxpTVJGMUhSNXdNTzB2Rm5lejhJSkZOOVdFZjZZ?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "c58712455128",
-   "genre": "culture",
-   "date": "2026-11-10",
-   "text": "ドラマのブラッサムで、石橋静河が演じる珠が創作を通して生き生きとした姿を取り戻す展開が描かれている。",
-   "reading": "どらまのぶらっさむで、いしばししずかわがえんじるたまがそうさくをとおしていきいきとしたすがたをとりもどすてんかいがえがかれている。",
-   "headline": "『ブラッサム』珠石橋静河はなぜ書くことで息を吹き返したのか 創作に宿る生命力",
-   "source": "リアルサウンド",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wTjhJRzJ1S2FZUkFtcjNuc2lhWUVwQzhISjZDSy1KUEgxaExOU0VNcGdlN1dXdmtpQ3FXa2ktSEk0RmxpT2RPQWdBdzVXM2daQlZTZkVsaDV3RlhTZ09ScXNn0gFnQVVfeXFMUE9RZjctdXZmXzJvbEx4VjR1aVpzWWhuTS1fUno2QUlyWVNEMTZNVC1DM0VUcTVrZV9SeDdEZ0x6cl9tQkdlUVpxNXBxM1BmT1hzWlYyakdEZ0FxZ1pVeF9JaWVra3RPaw?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "218f57f099a0",
-   "genre": "economy",
-   "date": "2026-11-10",
-   "text": "Suica「ウォークスルー改札」対応の裏側 iPhoneとAndroidが「UWB乗車」に27年後半対応へ",
-   "reading": "suicaうぉーくするーかいさつたいおうのうらがわiphoneとandroidがuwbじょうしゃに27ねんこうはんたいおうへ",
-   "headline": "Suica「ウォークスルー改札」対応の裏側 iPhoneとAndroidが「UWB乗車」に27年後半対応へ",
-   "source": "CNET Japan",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uM3cwaG4zeEFCVXNlRDBZdGU5OFFzcUV1RjFWM2phTGZRUmYxbTJOYUZ5eEtreGNRRUYzU2RaS0N3NVYwZW9lNlZjOG15ZlNlNUE?oc=5",
-   "method": "headline"
-  },
-  {
-   "id": "9743a22224af",
-   "genre": "culture",
-   "date": "2026-11-10",
-   "text": "読売テレビ・日本テレビ系全国ネット『ベストヒット歌謡祭2026』出演記念「うららか」楽曲シェアキャンペーン開催!",
-   "reading": "よみうりてれびにほんてれびけいぜんこくねっとべすとひっとかようさい2026しゅつえんきねんうららかがっきょくしぇあきゃんぺーんかいさい",
-   "headline": "読売テレビ・日本テレビ系全国ネット『ベストヒット歌謡祭2026』出演記念「うららか」楽曲シェアキャンペーン開催!",
-   "source": "Da-iCE",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2bW1RTkVZTXVKZlhVVkdJaXN5WXNLaGQ1LWtJQzUxTEhVRE1iTDl0MUp3bXVTSkQyUDBIZlhFMUdXOGwzYUpMTWR0eG9FbjVJVU9xQ2h4MA?oc=5",
-   "method": "headline"
-  },
-  {
-   "id": "2b02134d4363",
-   "genre": "world",
-   "date": "2026-11-10",
-   "text": "日本政府は、apecの首脳宣言に貿易の透明性を盛り込むよう提案した。中国によるレアアースの規制を念頭に置いた対応とみられる。",
-   "reading": "にほんせいふは、apecのしゅのうせんげんにぼうえきのとうめいせいをもりこむようていあんした。ちゅうごくによるれああーすのきせいをねんとうにおいたたいおうとみられる。",
-   "headline": "政府、APEC宣言に「貿易の透明性」提案 中国レアアース規制念頭",
-   "source": "日本経済新聞",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yNnVqSUNzcHpTZmRRc1VLaDlXTjNQQndKdWZ4ODhwakVKRWxCanVLNjEzY29Za3JFMjN2amhSaGlGRmJQYVFPWEtsUEZuZkVGOGk5VGh3TWNPaGh2cXRnTVZFUlBmdkRYbkllZw?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "72341b2c7dbf",
-   "genre": "economy",
-   "date": "2026-11-10",
-   "text": "中国と香港の株式市場では米国の株高や原油安を受けて投資環境が改善した。中国の株価が上昇した一方で、香港市場では利上げへの警戒感から株価が下落するなど動きが分かれた。",
-   "reading": "ちゅうごくとほんこんのかぶしきしじょうではべいこくのかぶだかやげんゆやすをうけてとうしかんきょうがかいぜんした。ちゅうごくのかぶかがじょうしょうしたいっぽうで、ほんこんしじょうではりあげへのけいかいかんからかぶかがげらくするなどうごきがわかれた。",
-   "headline": "中国・香港株式市場・大引け=上昇、米株高と原油安で地合い改善",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmZWSFptUE9rVHB2cFJaRjFZaGIwUVRTczFUdU51Wmprem42MzB3NUl4Sm1hMUVPZGpTejJCQmdQaENXVFNiLUF0cjh1ME9adWtaUzh2dHNkN3M5YkhtRklnUzBrU3B1YkhMV0hTR3FpX3c1YXdkX0ZucXRndnRWOGZhNXBBdw?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "8869f836c2f0",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "南極の氷の下にある海底で微生物の滝が見つかった。研究者が危惧している。",
-   "reading": "なんきょくのこおりのしたにあるかいていでびせいぶつのたきがみつかった。けんきゅうしゃがきぐしている。",
-   "headline": "南極の厚い氷の下の海底で見つかった「微生物の滝」、研究者はなぜ危惧するのか",
-   "source": "Yahoo!ニュース",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBNnhsdzZ3SXZEeUNmaGs4ejg4VnFjVFFpczJVYVUzWThRVEhYdTVMR1NhbE1oaFl2dDJHTU1hRjFyc3NHOU14Unc5MUlBbkJkQno0Z1B1bjZkM3d4TzJ5cG9GTElNWWRoWWMxSEU5dVpMdFQtR0x5S2MyUVVlVjQ?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "b34aacf493a0",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "オーストラリアのドローンによるサメの監視で人間の操縦士による危険判定の62%が誤認となった。aiを利用した判断支援に期待が寄せられている。",
-   "reading": "おーすとらりあのどろーんによるさめのかんしでにんげんのそうじゅうしによるきけんはんていの62ぱーせんとがごにんとなった。aiをりようしたはんだんしえんにきたいがよせられている。",
-   "headline": "豪州・ドローン「サメ」監視、人間の操縦士による危険判定の62%が誤認──AI利用の判断支援に期待",
-   "source": "Forbes JAPAN",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1idHd5NlhfbHZod2tpWjIyNF9yTnlZa0Jfa2ZkamtURXA3bU02NkliWUk2YnJwLThQY0NDcldpcEtoNTJEd3cycjZQTkFSMlhTREZGSFIza1NQQQ?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "a4890f9bb1ef",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "今週の夜空で火星と木星が大接近した。明るい火球に期待が高まっている。",
-   "reading": "こんしゅうのよぞらでかせいともくせいがだいせっきんした。あかるいかきゅうにきたいがたかまっている。",
-   "headline": "明るい「火球」に期待、火星と木星が夜明け前に大接近 今週の夜空",
-   "source": "Forbes JAPAN",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HbWlIWWg5S0VhLXpEMGR0a2NVUW13MUpsN2FDai1VUGd1MDd0MUtxS2QyNEZQTTJGbVVEaGI3V0Z5ak5PTzRfNnJBeHhaaER1bmZLT2pZNWhRZw?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "bd7178066ba3",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "2026年のドラフトに向けてベテラン記者がスカウトの反省会を聞いた。現場の苦労や意見が語られた。",
-   "reading": "2026ねんのどらふとにむけてべてらんきしゃがすかうとのはんせいかいをきいた。げんばのくろうやいけんがかたられた。",
-   "headline": "「推した選手に『誰が面倒見るんや』って...」「スカウトは優秀な撮影隊じゃないと...」ベテラン記者が聞いた2026敏腕スカウトドラフト反省会",
-   "source": "Number Web",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zLUo2OXNZUG9zTDZHOVlEWl9hNDRFNnY0cmJtUkhfVGNPeHgxNFM3THJOeEx3MXBHNDl2R3RyUTZobDZNYzNFaFNXT1F2cWkzc2daRmhsbWhmM1lWaFRz?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "d35cbdfb9cee",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "aiが18年未解決だった物理学の難問を証明した。量子コンピュータの高速化の限界が明らかになった。",
-   "reading": "aiが18ねんみかいけつだったぶつりがくのなんもんをしょうめいした。りょうしこんぴゅーたのこうそくかのげんかいがあきらかになった。",
-   "headline": "AIが18年未解決の物理学難問を証明、量子コンピュータの「高速化の限界」が明らかに",
-   "source": "Yahoo!ニュース",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pX1BrVUJmSklRSUVfODV3WDUwUm9FSlpPTlo5dlVXQVFvaHRwSVBlcmRVR1JpU1Z1STRhTUJtWngwRTNDZDhhYmd1MWZuN3Jmc2VCQVVzcmVxcmMwU2hiMXJkWTRUMldtcjVwbTVuc1QxSTdfRlQ3eEM3ZXVoOHM?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "fb605af7ed0b",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "火星衛星探査機のmmxが地球から600万キロの宇宙を順調に飛行している。",
-   "reading": "かせいえいせいたんさきのmmxがちきゅうから600まんきろのうちゅうをじゅんちょうにひこうしている。",
-   "headline": "火星衛星探査機「MMX」 地球から600万キロの宇宙を順調に飛行",
-   "source": "NHKニュース",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00NEVjUUMyMmllY1hoUmgtMkpOSEppVUZXT2lHSVRLcGZkNHpfLTFEbS1tMXRiRlB3Z016dlB5TF9QUWNSekFwSk1WZEtLMjZ2ODVFamtsNWN5WVpEYjZN?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "03cd3ef9765e",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "広島の原爆投下に関する事実が飛行記録から判明した。",
-   "reading": "ひろしまのげんばくとうかにかんするじじつがひこうきろくからはんめいした。",
-   "headline": "広島の原爆投下の「ぞっとする事実」が飛行記録の2語から判明",
-   "source": "ナゾロジー",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOTUpaaFRqWEtXdkRTWXJ6SnAzUkVhZGVsQTJQTEVDOF8xSUhGREZjUVllR3UzMHpWQm85Q29IRnJpVUhORjJfM3NNUUV0M3ZvZWdPT3NheVlTajUxZFE?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "15eea9c017da",
-   "genre": "science",
-   "date": "2026-11-10",
-   "text": "肉を食べるとテストステロンが増えるという説の真偽について話題となっている。",
-   "reading": "にくをたべるとてすとすてろんがふえるというせつのしんぎについてわだいとなっている。",
-   "headline": "「肉を食べるとテストステロンが増える」という説は本当なのか?",
-   "source": "GIGAZINE",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9yQnV5X256S3VmaTF2d25OMXNIV3k0WHdFNWhJUS16ZTE1dmhIOFBmLUhBTTNPeGJUcnBsTEczTTlya2NJbGowdDkxRFhseDBOclk5RXdTUHpqMnAxb1M0UlZ0SkV5NWdWLVA3VVFqc21JNkJobTRWVA?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "5c110e10a4ab",
-   "genre": "culture",
-   "date": "2026-11-10",
-   "text": "ベストヒット歌謡祭2026のタイムテーブルが発表された。各アーティストの出演時間や歌唱曲が明らかになり注目を集めている。",
-   "reading": "べすとひっとかようさい2026のたいむてーぶるがはっぴょうされた。かくあーてぃすとのしゅつえんじかんやかしょうきょくがあきらかになりちゅうもくをあつめている。",
-   "headline": "ベストヒット歌謡祭2026タイムテーブル発表 出演者・歌唱曲、各アーティストの出演時間は",
-   "source": "福井新聞社",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xTFFCcTJkOXpmRTNqeGRyUlRDUHBNQ2UyR2xhNk9BQ1R3UUUwZmtwSE1GS0JRT2FhQzJfVk5JVWZWLUdabmY1T0VkY1VaQ1NhYTBxSGtuMEFLMmNDc0E?oc=5",
-   "method": "ai"
-  },
-  {
-   "id": "37e86cbc8178",
-   "genre": "culture",
-   "date": "2026-11-10",
-   "text": "レコード大賞の審査委員が社長を務める会社が審査期間中に複数のレコード会社へ広告営業を行っていた。これを受け委員は交代となった。",
-   "reading": "れこーどたいしょうのしんさいいんがしゃちょうをつとめるかいしゃがしんさきかんちゅうにふくすうのれこーどかいしゃへこうこくえいぎょうをおこなっていた。これをうけいいんはこうたいとなった。",
-   "headline": "「レコード大賞」審査委員が社長の会社、審査期間に複数レコード会社に「広告」営業...委員は交代",
-   "source": "読売新聞",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yakRnQjgxWnBpOG5Ca3JxR21sdFJoMjZINzEtcXF1aWNwS0hhMzR5SXRrS0xIZEU0enpiV3VhNGQzOW5yUFN3R3ROcFVyUjNrOWtkNTBJUlhtMmdDNXI1cGtWT3kwSXBOUzZnUQ?oc=5",
    "method": "ai"
   }
  ]
